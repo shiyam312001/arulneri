@@ -1,0 +1,38 @@
+{
+  "name": "arulneri",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "node scripts/setup-admin.js",
+    "test-auth": "node scripts/test-auth.js",
+    "update-password": "node scripts/update-password.js",
+    "ensure-admin": "node scripts/ensure-admin.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "framer-motion": "^12.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.510.0",
+    "mysql2": "^3.14.1",
+    "next": "^15.3.2",
+    "next-auth": "^4.24.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "tailwindcss": "^4"
+  }
+}
