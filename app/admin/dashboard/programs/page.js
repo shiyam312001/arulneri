@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Plus, Edit, Trash2, Image as ImageIcon, X } from 'lucide-react';
 import ProtectedRoute from '../../../components/ProtectedRoute';
+import Image from 'next/image';
 
 export default function ProgramsPage() {
   const [programs, setPrograms] = useState([]);
@@ -224,7 +225,7 @@ export default function ProgramsPage() {
               <ImageIcon size={48} className="text-muted" />
             </div>
             <h5 className="text-muted">No Programs Found</h5>
-            <p className="text-muted">Click "Add New Program" to get started.</p>
+            <p className="text-muted">Click &quot;Add New Program&quot; to get started.</p>
           </div>
         ) : (
           <div className="row">
@@ -233,11 +234,13 @@ export default function ProgramsPage() {
                 <div className="card h-100">
                   {program.images && program.images.length > 0 && (
                     <div className="position-relative">
-                      <img
+                      <Image
                         src={program.images.find(img => img.is_primary)?.image_path || program.images[0].image_path}
                         className="card-img-top"
                         alt={program.title}
-                        style={{ height: '200px', objectFit: 'cover' }}
+                        width={400}
+                        height={200}
+                        style={{ height: '200px', objectFit: 'cover', width: '100%' }}
                       />
                       {program.images.length > 1 && (
                         <div className="position-absolute bottom-0 end-0 m-2">
@@ -392,9 +395,11 @@ export default function ProgramsPage() {
                               {/* Existing Images */}
                               {formData.existingImages.map((image, index) => (
                                 <div key={`existing-${image.id}`} className="position-relative">
-                                  <img
+                                  <Image
                                     src={image.image_path}
                                     alt={`Existing ${index + 1}`}
+                                    width={100}
+                                    height={100}
                                     style={{ 
                                       width: '100px', 
                                       height: '100px', 
@@ -433,9 +438,11 @@ export default function ProgramsPage() {
                               {/* New Images */}
                               {formData.images.map((image, index) => (
                                 <div key={`new-${index}`} className="position-relative">
-                                  <img
+                                  <Image
                                     src={URL.createObjectURL(image)}
                                     alt={`New ${index + 1}`}
+                                    width={100}
+                                    height={100}
                                     style={{ 
                                       width: '100px', 
                                       height: '100px', 

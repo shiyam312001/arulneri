@@ -10,10 +10,6 @@ export default function ContactsPage() {
   const [showModal, setShowModal] = useState(false);
   const router = useRouter();
 
-  useEffect(() => {
-    fetchContacts();
-  }, []);
-
   const fetchContacts = async () => {
     try {
       const response = await fetch('/api/contacts', {
@@ -35,6 +31,10 @@ export default function ContactsPage() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    fetchContacts();
+  }, [fetchContacts]);
 
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure you want to delete this contact?')) {
