@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Trash2, Eye } from 'lucide-react';
 
@@ -10,7 +10,7 @@ export default function ContactsPage() {
   const [showModal, setShowModal] = useState(false);
   const router = useRouter();
 
-  const fetchContacts = async () => {
+  const fetchContacts = useCallback(async () => {
     try {
       const response = await fetch('/api/contacts', {
         credentials: 'include'
@@ -30,7 +30,7 @@ export default function ContactsPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [router]);
 
   useEffect(() => {
     fetchContacts();

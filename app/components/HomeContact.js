@@ -57,7 +57,7 @@ export default function HomeContact() {
     <div className='home-contact-form'>
       <div className='container'>
         <div className='row contact-row'>
-          <p className='contact-head-title'>“More than treatment — We offer Love and Care”</p>
+          <p className='contact-head-title'>"More than treatment — We offer Love and Care"</p>
           <div className='col-md-6'>
             <div className="banner-img-ref">
               <Image
@@ -77,7 +77,7 @@ export default function HomeContact() {
                 <div className="rounded-lg p-6">
                   <h2 className="mb-2 contact-headtext">Contact Form</h2>
                   <p className="text-contact mb-6">
-                    Begin your wellness journey — share your need, we'll guide your way
+                    Begin your wellness journey — share your need, we&apos;ll guide your way
                   </p>
 
                   <form onSubmit={handleSubmit} className="space-y-4 conform">
@@ -160,7 +160,7 @@ export default function HomeContact() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Message Received</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Thank you. You've made a soulful step toward balance and relief.
+                Thank you. You&apos;ve made a soulful step toward balance and relief.
               </p>
             </div>
 

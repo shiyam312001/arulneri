@@ -56,7 +56,7 @@ export default function Contact() {
                 <div className="rounded-lg p-6">
                   <h2 className="text-2xl font-bold text-blue-600 mb-2">Contact Form</h2>
                   <p className="text-gray-600 mb-6 text-sm">
-                    Begin your wellness journey — share your need, we'll guide your way
+                    Begin your wellness journey — share your need, we&apos;ll guide your way
                   </p>
 
                   <form onSubmit={handleSubmit} className="space-y-4 conform">
@@ -130,9 +130,9 @@ export default function Contact() {
           </div>
                         <div className='col-md-6 contact-right'>
                           <p className='contact-right-head-cc'>Need Assistance?</p>
-          <p className='contact-right-subhead-cc'>You’ve taken the first step, Let us walk with you.</p>
+          <p className='contact-right-subhead-cc'>You&apos;ve taken the first step, Let us walk with you.</p>
           <p className='contact-right-head'>Contact Us</p>
-          <p className='contact-right-subhead'>Let’s walk the path to healing together</p>
+          <p className='contact-right-subhead'>Let&apos;s walk the path to healing together</p>
         
           <div className='col-md-12 d-flex align-items-start mb-3'>
             <div className='me-3'>
@@ -200,7 +200,7 @@ export default function Contact() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Message Received</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Thank you. You've made a soulful step toward balance and relief.
+                Thank you. You&apos;ve made a soulful step toward balance and relief.
               </p>
             </div>
 

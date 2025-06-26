@@ -22,7 +22,7 @@ export default function Reflex() {
                 <p className='ref-subhead'>Why Foot Reflexology?</p>
                 <p className='ref-para'>Foot Reflexology treats the root cause, not just the symptoms, helping you achieve lasting health and wellness safely and naturally.</p>
                 <p className='ref-para'>Other Medicines are designed to quickly target symptoms, but they often come with unwanted side effects like fatigue, digestive issues, 
-long-term dependency, and cause side effect in kindey and other important organ in body, but Foot Reflexology works naturally by stimulating your body's own healing systems without introducing chemicals or artificial substances.</p>
+long-term dependency, and cause side effect in kindey and other important organ in body, but Foot Reflexology works naturally by stimulating your body&apos;s own healing systems without introducing chemicals or artificial substances.</p>
 <p className='ref-para'>It enhances circulation, reduces stress, balances energy flow, and strengthens your immune system — all without the risk of side effects.</p>
             </div>
         </div>
