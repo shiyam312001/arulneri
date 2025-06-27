@@ -8,7 +8,7 @@ export default function Banner() {
       <div className="container py-5">
         <div className="row align-items-center">
           {/* Text Content */}
-          <div className="col-md-7 text-start">
+          <div className="col-md-7 text-start order-2 order-md-1">
             <p className="welcome-text">Welcome to Arulneri Healthcare</p>
             <p className="welcome-texts">
               Heal Your Health, Mind, Body, and Soul with Foot Reflexology.
@@ -25,14 +25,22 @@ export default function Banner() {
             </Link>
           </div>
 
-          <div className="col-md-5 text-center">
+          <div className="col-md-5 order-1 order-md-2 text-center">
             <div className="banner-img">
               <Image
                 src="/banner-img.png"
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded carousel-img"
+                className="img-fluid rounded carousel-img d-none d-md-block"
+                priority={true}
+              />
+              <Image
+                src="/mobile-banner.png"
+                width={460}
+                height={500}
+                alt="Arulneri Healthcare Banner"
+                className="img-fluid rounded d-block d-md-none"
                 priority={true}
               />
             </div>

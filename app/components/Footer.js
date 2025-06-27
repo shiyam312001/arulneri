@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="footer text-white bg-blue">
+    <footer className="footer text-white">
       <div className="container text-center py-5">
 
         {/* Centered Logo */}
@@ -24,6 +24,68 @@ export default function Footer() {
           <li className="footer-nav">About Us</li>
           <li className="footer-nav">Testimonials</li>
         </ul>
+
+<div className="container py-4">
+  <div className="row">
+    {/* Left Aligned */}
+    <div className="col-md-4 d-flex justify-content-start align-items-start mb-3 text-start">
+      <div className="me-3">
+        <Image
+          src="/loc.png"
+          width={48}
+          height={48}
+          alt="Location Icon"
+          className="img-fluid"
+          priority={true}
+        />
+      </div>
+      <div>
+        <p className="mb-0 fw-bold about-info text-white">Address:</p>
+        <p className="mb-0 about-inform text-white">Vickramasingapuram, Tirunelveli.</p>
+      </div>
+    </div>
+
+    {/* Center Aligned */}
+    <div className="col-md-4 d-flex justify-content-center align-items-start mb-3 text-start">
+      <div className="me-3">
+        <Image
+          src="/mail.png"
+          width={48}
+          height={48}
+          alt="Email Icon"
+          className="img-fluid"
+          priority={true}
+        />
+      </div>
+      <div>
+        <p className="mb-0 fw-bold about-info text-white">Email:</p>
+        <p className="mb-0 about-inform text-white">arulnerihealcare@gmail.com</p>
+      </div>
+    </div>
+
+    {/* Right Aligned */}
+    <div className="col-md-4 d-flex justify-content-end align-items-start mb-3 text-start">
+      <div className="me-3">
+        <Image
+          src="/mob.png"
+          width={48}
+          height={48}
+          alt="Phone Icon"
+          className="img-fluid"
+          priority={true}
+        />
+      </div>
+      <div>
+        <p className="mb-0 fw-bold about-info text-white">Phone:</p>
+        <p className="mb-0 about-inform text-white">+91 88832 20081</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
         <hr className="bg-white opacity-25" />
 

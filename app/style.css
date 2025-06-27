@@ -375,7 +375,6 @@ background-repeat: no-repeat;
     font-size: 16px;
     font-family: Avenir;
 }.footer {
-  background-color: #395CAB;
   color: white;
   font-family: 'Commissioner', sans-serif;
 }
@@ -734,4 +733,32 @@ font-family: Avenir;
 }
 .py-12{
   margin: 70px 0;
+}
+.footer{
+  background-image: url('/footer-bg.png'); 
+  background-size: cover;       
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  margin-top: 90px !important;
+}
+.problem-head{
+  font-size: 50px !important;
+}
+.problems{
+  margin: 10px 0 50px 0;
+}
+
+
+@media (max-width: 575.98px) {
+.banner-img{
+  background-image: none !important;
+  justify-content: left;
+  width: 330px;
+}
+.welcome-text{
+  font-size: 26px;
+}
+.welcome-texts{
+  padding: 0;
+} 
 }

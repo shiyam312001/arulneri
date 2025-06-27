@@ -14,6 +14,7 @@ import Feet from './components/Feet';
 import Words from './components/Words';
 import Contact from './components/Contact';
 import HomeContact from './components/HomeContact';
+import Problems from './components/Problems';
 export default function page() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function page() {
    <Energy />
   <Reflex />
     <Treatment />
+    <Problems />
     <Cure />
     <Peace />
     <Feet />
