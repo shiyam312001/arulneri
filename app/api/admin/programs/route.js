@@ -10,23 +10,6 @@ export async function GET() {
   try {
     console.log('Starting GET /api/admin/programs request...');
     
-    const cookieStore = await cookies();
-    const token = cookieStore.get('admin_token')?.value;
-
-    if (!token) {
-      console.log('No token found in cookies');
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
-    console.log('Verifying JWT token...');
-    const decoded = verifyJWT(token);
-    if (!decoded) {
-      console.log('Invalid token');
-      return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
-    }
-
-    console.log('Token verified, fetching programs from database...');
-    
     // Get programs with a limit of 8
     const [programs] = await pool.query(`
       SELECT * FROM programs 

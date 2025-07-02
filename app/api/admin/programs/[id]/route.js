@@ -9,18 +9,7 @@ const { cookies } = require('next/headers');
 export async function GET(request, { params }) {
   let connection;
   try {
-    const cookieStore = await cookies();
-    const token = cookieStore.get('admin_token')?.value;
-
-    if (!token) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
-    const decoded = verifyJWT(token);
-    if (!decoded) {
-      return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
-    }
-
+    // No authentication required for GET
     const { id } = params;
     connection = await pool.getConnection();
 
