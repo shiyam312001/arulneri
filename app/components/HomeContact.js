@@ -120,7 +120,7 @@ export default function HomeContact() {
                           onChange={handleInputChange}
                           placeholder="Enter your contact number"
                           required
-                          className="flex-1 home-bg-contact-field px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+                          className="flex-1 home-bg-contact-field px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 contact-mb focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                         />
                       </div>
                     </div>
@@ -173,8 +173,7 @@ export default function HomeContact() {
           </div>
         </div>
       )}
-
-      <style jsx>{`
+         <style jsx>{`
         @keyframes slideUp {
           from {
             opacity: 0;
@@ -188,6 +187,17 @@ export default function HomeContact() {
 
         .animate-slideUp {
           animation: slideUp 0.5s ease-out;
+        }
+          .contact-mb{
+          width:130px !important;
+          }
+
+        @media (max-width: 767px) {
+          input,
+          textarea,
+          select {
+            font-size: 12px !important;
+          }
         }
       `}</style>
     </div>

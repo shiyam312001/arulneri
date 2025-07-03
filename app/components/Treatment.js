@@ -29,7 +29,7 @@ export default function Treatment() {
         </div>
         <div className='row'>
           {treatments.map((treatment, index) => (
-            <div key={index} className='col-md-3 nature-section p-2'>
+            <div key={index} className='col-6 col-md-3 nature-section p-2'>
               <div className='p-4 text-center'>
                 <div className='mb-3 image-contain'>
                   <Image
