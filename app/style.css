@@ -1,50 +1,56 @@
-.header
-{
-    padding: 20px 0;
-  
+.header {
+  padding: 20px 0;
+
 }
-.appointment{
-    border-radius: 20px 20px 20px 0;
+
+.appointment {
+  border-radius: 20px 20px 20px 0;
 }
-.welcome-text{
-    color: #395CAB;
-    font-size: 29px;
-     font-family: Bellefair;
+
+.welcome-text {
+  color: #395CAB;
+  font-size: 29px;
+  font-family: Bellefair;
 }
-.welcome-texts{
-    font-family: Bellefair;
-    font-size: 58px;
-    color: #444655;
-    line-height: 80px;
-    padding: 0 198px 0 0;
+
+.welcome-texts {
+  font-family: Bellefair;
+  font-size: 58px;
+  color: #444655;
+  line-height: 80px;
+  padding: 0 198px 0 0;
 }
-.nav-menus{
-    font-family: Avenir;
-    font-weight: 400 !important;
+
+.nav-menus {
+  font-family: Avenir;
+  font-weight: 400 !important;
 }
-.welcome-sub-text{
-    font-family: Avenir;
-    font-weight: 400 !important;
-    font-size: 18px;
-    color: #71758E;
-    margin-bottom: 35px;
+
+.welcome-sub-text {
+  font-family: Avenir;
+  font-weight: 400 !important;
+  font-size: 18px;
+  color: #71758E;
+  margin-bottom: 35px;
 }
-.nav-menus-btn{
-    background-color: #395CAB;
-    width: 214px;
-     font-family: Avenir;
-    height: 55px;
-    border-radius: 20px 20px 20px 0;
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 0 40px;
+
+.nav-menus-btn {
+  background-color: #395CAB;
+  width: 214px;
+  font-family: Avenir;
+  height: 55px;
+  border-radius: 20px 20px 20px 0;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 40px;
 }
+
 .banner-img {
-  background-image: url('/background-img.png'); 
-  background-size: cover;       
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-image: url('/background-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 460px;
   height: 502px;
   display: flex;
@@ -52,43 +58,50 @@
   margin-top: -110px;
   align-items: center;
 }
-.carousel-img{
+
+.carousel-img {
   margin-top: 205px;
   padding: 15px;
   margin-right: 40px;
 }
-.energy-section-background{
+
+.energy-section-background {
   justify-content: center;
   align-items: center;
-  background-image: url('/Treat.png'); 
-  background-position: center;  
+  background-image: url('/Treat.png');
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 412px;
 }
-.peace-right-row{
+
+.peace-right-row {
   padding: 0 0 0 131px !important;
 }
+
 .energy-section {
   padding: 100px 0 60px 0;
 }
-.energy-text{
-    color: #395CAB;
-    font-size: 73px;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 0;
-    font-family: "Arsenal SC";
+
+.energy-text {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-family: "Arsenal SC";
 }
-.energy-texts{
-    color: #395CAB;
-    font-size: 73px;
-    font-weight: 300;
-    margin-top: -20px !important;
-    font-family: "Arsenal SC";
+
+.energy-texts {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 300;
+  margin-top: -20px !important;
+  font-family: "Arsenal SC";
 }
-.reflex{
-  background-image: url('/reflexology.png'); 
+
+.reflex {
+  background-image: url('/reflexology.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -96,227 +109,264 @@
   margin-left: -15px;
   margin-bottom: 80px;
 }
+
 .banner-img-ref {
   background-image: url('/background-img.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;           /* responsive width */
-  max-width: 460px;      /* limits the max size */
-  aspect-ratio: 460 / 502; /* maintains image ratio */
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 460 / 502;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.refimg{
+.refimg {
   width: 190% !important;
-margin: 170px -33px 0 0;
+  margin: 170px -33px 0 0;
 }
-.ref-head{
-    font-family: Bellefair;
-    font-weight: 400;
-    font-size: 29px;
-    color: #395CAB;
+
+.ref-head {
+  font-family: Bellefair;
+  font-weight: 400;
+  font-size: 29px;
+  color: #395CAB;
 }
-.ref-subhead{
-    font-family: Bellefair;
-    font-weight: 400;
-    font-size: 58px;
-    color: #444655;
+
+.ref-subhead {
+  font-family: Bellefair;
+  font-weight: 400;
+  font-size: 58px;
+  color: #444655;
 }
-.ref-para{
-    text-align: justify;
-    font-family: Avenir;
-    font-size: 18px;
-    color: #71758E;
+
+.ref-para {
+  text-align: justify;
+  font-family: Avenir;
+  font-size: 18px;
+  color: #71758E;
 }
-.ref-row{
-    margin: 60px 0 !important;
+
+.ref-row {
+  margin: 60px 0 !important;
 }
-.reflex-row{
-        padding: 0 0px 0 60px;
+
+.reflex-row {
+  padding: 0 0px 0 60px;
   margin-top: 96px !important;
 }
-.refs-row{
-    margin: 40px 0;
+
+.refs-row {
+  margin: 40px 0;
 }
-.treatment-section{
-    margin: 40px 0;
+
+.treatment-section {
+  margin: 40px 0;
 }
-.treatment-head{
-font-size: 58px;
-font-family: Bellefair;
-font-weight: 400;
-color: #444655;
+
+.treatment-head {
+  font-size: 58px;
+  font-family: Bellefair;
+  font-weight: 400;
+  color: #444655;
 }
-.treatment-subhead{
-font-size: 29px;
-font-weight: 400;
-font-family: Bellefair;
-color: #395CAB;
+
+.treatment-subhead {
+  font-size: 29px;
+  font-weight: 400;
+  font-family: Bellefair;
+  color: #395CAB;
 }
-.treatments{
-    margin: 30px 0;
+
+.treatments {
+  margin: 30px 0;
 }
-.treatment-title{
-font-size: 24px;
-font-weight: 400;
-margin: 35px 0 0 0;
-color: #444655;
-font-family: Bellefair;
+
+.treatment-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 35px 0 0 0;
+  color: #444655;
+  font-family: Bellefair;
 }
-.treatment-para{
-    font-family: Avenir;
-    font-weight: 400 !important;
-    font-size: 16px;
-    color: #71758E;
-    padding: 10px 0;
+
+.treatment-para {
+  font-family: Avenir;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #71758E;
+  padding: 10px 0;
 
 }
+
 .nature-section img {
-text-align: center;
-object-fit: contain;
+  text-align: center;
+  object-fit: contain;
 }
-.image-contain{
-    height: 94px;
+
+.image-contain {
+  height: 94px;
 }
-.cure-head{
- color: #395CAB;
-    font-size: 73px;
-    font-weight: 400;
-    font-family: "Arsenal SC";
+
+.cure-head {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 400;
+  font-family: "Arsenal SC";
 }
-.cure-subhead{
-     color: #395CAB;
-    font-size: 73px;
-    font-weight: 300;
-    font-family: "Arsenal SC";
-    margin-top: -30px;
+
+.cure-subhead {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 300;
+  font-family: "Arsenal SC";
+  margin-top: -30px;
 }
-.cureimg{
-    width: 100%;
-    margin-bottom: 80px;
+
+.cureimg {
+  width: 100%;
+  margin-bottom: 80px;
 }
-.peace{
-  background-image: url('/peace-bg.png'); 
+
+.peace {
+  background-image: url('/peace-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   float: left;
   margin-left: -15px;
 }
-.peace-img{
-   background-image: url('/background-img.png'); 
+
+.peace-img {
+  background-image: url('/background-img.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%; 
+  width: 100%;
   float: left;
 }
-.peaceimg{
-     width: 100% !important;
+
+.peaceimg {
+  width: 100% !important;
   margin: 177px -35px 0 0;
 }
-.peace-program{
-    width: 100%;
-    text-align: center;
-    margin-top: 60px !important;
-}
-.recent-title{
-    color: #444655;
-font-size: 58px;
-font-family: Bellefair;
-font-weight: 400;
-}
-.recent-sub{
-    color: #395CAB;
-font-size: 29px;
-font-family: Bellefair;
-font-weight: 400;
-}
-.recent-pg{
-    margin-top: -130px !important;
-}
-.recent-program{
-    padding: 0 0 192px 0 !important;
+
+.peace-program {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px !important;
 }
 
-.feet-text{
-    color: #395CAB;
-    font-size: 92px;
-    font-weight: 400;
-    font-family: "Arsenal SC";
-    line-height: 113px;
-    padding: 0 116px 0 0;
-}
-.foot-text{
-      padding: 88px 0 0 0;
-}
-.word-title{
- color: #444655;
-    font-size: 58px;
-    font-weight: 400;
-     font-family: Bellefair;
-}
-.word-testimonial{
-color: #395CAB;
-    font-size: 29px;
-    font-weight: 400;
-     font-family: Bellefair;
-}
-.words-para{
-    width: 100%;
-    text-align: center;
-}
-.testimonial-text{
-    font-size: 18px;
-    font-family: Bellefair;
-    line-height: 30px;
-    color: #71758E;
-    font-weight: 400;
-    text-align: justify;
-    height: 210px !important;
+.recent-title {
+  color: #444655;
+  font-size: 58px;
+  font-family: Bellefair;
+  font-weight: 400;
 }
 
-.testimonial-author{
-    font-size: 32px;
-    font-family: Avenir;
-    line-height: 30px;
-    font-weight: 400;
-    color: #395CAB;
+.recent-sub {
+  color: #395CAB;
+  font-size: 29px;
+  font-family: Bellefair;
+  font-weight: 400;
 }
-.testimonial-desgination{
-    font-size: 18px;
-    font-family: Avenir;
-    line-height: 30px;
-    font-weight: 400;
-    color: #71758E;
+
+.recent-pg {
+  margin-top: -130px !important;
 }
-.contact-head{
-    width: 100%;
-    text-align: center;
+
+.recent-program {
+  padding: 0 0 192px 0 !important;
 }
-.contact-head-title{
-     font-size: 58px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
-    text-align: center;
+
+.feet-text {
+  color: #395CAB;
+  font-size: 92px;
+  font-weight: 400;
+  font-family: "Arsenal SC";
+  line-height: 113px;
+  padding: 0 116px 0 0;
 }
-.contact-row{
-    margin: 40px 0;
+
+.foot-text {
+  padding: 88px 0 0 0;
 }
+
+.word-title {
+  color: #444655;
+  font-size: 58px;
+  font-weight: 400;
+  font-family: Bellefair;
+}
+
+.word-testimonial {
+  color: #395CAB;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: Bellefair;
+}
+
+.words-para {
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-family: Bellefair;
+  line-height: 30px;
+  color: #71758E;
+  font-weight: 400;
+  text-align: justify;
+  height: 210px !important;
+}
+
+.testimonial-author {
+  font-size: 32px;
+  font-family: Avenir;
+  line-height: 30px;
+  font-weight: 400;
+  color: #395CAB;
+}
+
+.testimonial-desgination {
+  font-size: 18px;
+  font-family: Avenir;
+  line-height: 30px;
+  font-weight: 400;
+  color: #71758E;
+}
+
+.contact-head {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-head-title {
+  font-size: 58px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-row {
+  margin: 40px 0;
+}
+
 .contact-img-ref {
-  background-image: url('/contact-img-bg.png'); 
-  background-size: cover;       
-  background-position: center; 
-background-repeat: no-repeat; 
+  background-image: url('/contact-img-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 460px;
   height: 502px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .submission-popup {
   position: fixed;
   top: 0;
@@ -354,29 +404,35 @@ background-repeat: no-repeat;
   margin-bottom: 1rem;
   color: #555;
 }
-.contactform{
-    background-color: #fff;
+
+.contactform {
+  background-color: #fff;
 }
-.conform label{
-    font-size: 14px;
-    font-family: Avenir;
-    font-weight: 500;
+
+.conform label {
+  font-size: 14px;
+  font-family: Avenir;
+  font-weight: 500;
 }
-.conform label b{
-    font-size: 14px;
-    font-family: Avenir;
-    font-weight: 500;
-    color: red;
+
+.conform label b {
+  font-size: 14px;
+  font-family: Avenir;
+  font-weight: 500;
+  color: red;
 }
-.contactbtn{
-    border-radius: 20px 20px 20px 0;
-    background-color: #395CAB;
-    color: #fff;
-    width: 133px;
-    height: 43px;
-    font-size: 16px;
-    font-family: Avenir;
-}.footer {
+
+.contactbtn {
+  border-radius: 20px 20px 20px 0;
+  background-color: #395CAB;
+  color: #fff;
+  width: 133px;
+  height: 43px;
+  font-size: 16px;
+  font-family: Avenir;
+}
+
+.footer {
   color: white;
   font-family: 'Commissioner', sans-serif;
 }
@@ -416,37 +472,41 @@ background-repeat: no-repeat;
   color: #b0d8ff;
 }
 
-.treat-section-background{
+.treat-section-background {
   justify-content: center;
   align-items: center;
-  background-image: url('/Treat.png'); 
-  background-position: center;  
+  background-image: url('/Treat.png');
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 410px;
 }
 
-.program-section{
-    width: 100%;
-    text-align: center;
+.program-section {
+  width: 100%;
+  text-align: center;
 }
-.program-title{
-     font-size: 58px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
+
+.program-title {
+  font-size: 58px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
 
 }
-.program-sub{
-    font-size: 29px;
-    font-family: Bellefair;
-    color: #395CAB;
-    font-weight: 400;
+
+.program-sub {
+  font-size: 29px;
+  font-family: Bellefair;
+  color: #395CAB;
+  font-weight: 400;
 }
-.our-program{
+
+.our-program {
   margin-bottom: 40px;
 }
-.program-location{
+
+.program-location {
   float: left;
 }
 
@@ -470,321 +530,407 @@ background-repeat: no-repeat;
   background-color: #007bff;
   color: white;
 }
+
 .program-location {
   text-align: left;
   width: 100%;
 }
-.mission-text{
-   font-size: 58px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
-    margin: -4px 0 0 15px;
-}
-.mission-sub-text{
- font-size: 29px;
-    font-family: Bellefair;
-    color: #395CAB;
-    margin-top: 17px;
-    font-weight: 400;
-    margin-bottom: 77px;
-}
-.mission-sub-txt{
-  color: #395CAB;
-    font-size: 42px;
-    font-weight: 300;
-    font-family: "Arsenal SC";
-    text-transform: uppercase !important;
+
+.mission-text {
+  font-size: 58px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
+  margin: -4px 0 0 15px;
 }
 
-.about-main-title{
-   font-size: 29px;
-    font-family: Bellefair;
-    color: #395CAB;
-    margin-top: 80px;
-    font-weight: 400;
+.mission-sub-text {
+  font-size: 29px;
+  font-family: Bellefair;
+  color: #395CAB;
+  margin-top: 17px;
+  font-weight: 400;
+  margin-bottom: 77px;
 }
-.about-title{
-   font-size: 58px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
+
+.mission-sub-txt {
+  color: #395CAB;
+  font-size: 42px;
+  font-weight: 300;
+  font-family: "Arsenal SC";
+  text-transform: uppercase !important;
 }
-.about-txt{
-   font-size: 18px;
-    font-family: Avenir;
-    font-weight: 400;
-    color: #71758E;
-    text-align: justify;
+
+.about-main-title {
+  font-size: 29px;
+  font-family: Bellefair;
+  color: #395CAB;
+  margin-top: 80px;
+  font-weight: 400;
 }
-.about-me-img{
-  background-image: url('/profile-bg.png'); 
-  background-size: cover;       
-  background-position: center; 
-  background-repeat: no-repeat; 
+
+.about-title {
+  font-size: 58px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
+}
+
+.about-txt {
+  font-size: 18px;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #71758E;
+  text-align: justify;
+}
+
+.about-me-img {
+  background-image: url('/profile-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 460px;
   height: 502px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about-info{
-color:#6D758F;
-   font-size: 14px;
-    font-family: Avenir;
-    font-weight: 400;
- 
-}
-.about-inform{
-color: #444655;
-   font-size: 16px;
-    font-family: Avenir;
-    font-weight: 700;
-}
-.contact-right-head{
- font-size: 30px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
-}
-.contact-right-subhead{
- font-size: 16px;
-    font-family: Bellefair;
-    color: #6D758F;
-    font-weight: 400;
-    margin-top: -18px;
+
+.about-info {
+  color: #6D758F;
+  font-size: 14px;
+  font-family: Avenir;
+  font-weight: 400;
 
 }
-.about-logo{
-    padding: 0 0 20px 0;
+
+.about-inform {
+  color: #444655;
+  font-size: 16px;
+  font-family: Avenir;
+  font-weight: 700;
 }
-.about-text-sec{
+
+.contact-right-head {
+  font-size: 30px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
+}
+
+.contact-right-subhead {
+  font-size: 16px;
+  font-family: Bellefair;
+  color: #6D758F;
+  font-weight: 400;
+  margin-top: -18px;
+
+}
+
+.about-logo {
+  padding: 0 0 20px 0;
+}
+
+.about-text-sec {
   color: #6D758F;
   font-size: 18px;
-    font-family: Avenir;
-    font-weight: 400;
-    padding: 0 35px 0 0;
-    text-align: justify;
+  font-family: Avenir;
+  font-weight: 400;
+  padding: 0 35px 0 0;
+  text-align: justify;
 }
+
 .about-me {
-background-image: url('/about-bg.png'); 
-  background-size: cover;       
-  background-position: center; 
+  background-image: url('/about-bg.png');
+  background-size: cover;
+  background-position: center;
   padding: 100px 0 85px 0px;
 }
-.contact-form{
-  background-image: url('/contact.png'); 
-  background-size: cover;       
-  background-position: center; 
+
+.contact-form {
+  background-image: url('/contact.png');
+  background-size: cover;
+  background-position: center;
   padding: 100px 0 85px 0px;
 }
-.bg-contact-field{
+
+.bg-contact-field {
   background-color: #EBEFF7;
   font-family: Avenir;
   font-size: 14px;
 }
-.contact-right{
+
+.contact-right {
   padding: 0 0 0 130px !important;
 }
-.contact-right-head-cc{
- font-size: 30px;
-    font-family: Bellefair;
-    color: #444655;
-    font-weight: 400;
-      padding: 127px 0 2px 0;
+
+.contact-right-head-cc {
+  font-size: 30px;
+  font-family: Bellefair;
+  color: #444655;
+  font-weight: 400;
+  padding: 127px 0 2px 0;
 }
-.contact-right-subhead-cc{
- font-size: 16px;
-    font-family: Bellefair;
-    color: #6D758F;
-    font-weight: 400;
-    margin-top: -18px;
-      padding: 0 0 30px 0;
+
+.contact-right-subhead-cc {
+  font-size: 16px;
+  font-family: Bellefair;
+  color: #6D758F;
+  font-weight: 400;
+  margin-top: -18px;
+  padding: 0 0 30px 0;
 
 }
-.contact-suc-btn{
+
+.contact-suc-btn {
   border-radius: 66px 66px 66px 0px !important;
   color: #395CAB !important;
   background: #fff !important;
   padding: 0 42px;
 }
-.bg-tick{
+
+.bg-tick {
   background: #AFBFE5 !important;
 }
-.prog-img{
+
+.prog-img {
   border: 5px solid #395CAB;
   height: 250px !important;
   object-fit: contain;
   width: 100%;
 }
+
 .skeleton-box {
   animation: pulse 1.5s infinite ease-in-out;
 }
+
 @keyframes pulse {
-  0% { background-color: #eee; }
-  50% { background-color: #ddd; }
-  100% { background-color: #eee; }
+  0% {
+    background-color: #eee;
+  }
+
+  50% {
+    background-color: #ddd;
+  }
+
+  100% {
+    background-color: #eee;
+  }
 }
-.rec-prg-img{
+
+.rec-prg-img {
   width: 100%;
   object-fit: contain;
   height: 250px !important;
   border: 5px solid #395CAB;
 }
-.program-id-title{
-text-align: center;
-color: #444655;
- font-size: 58px;
-    font-family: Bellefair;
-    font-weight: 400;
+
+.program-id-title {
+  text-align: center;
+  color: #444655;
+  font-size: 58px;
+  font-family: Bellefair;
+  font-weight: 400;
 }
-.program-id-location{
-text-align: center;
- font-size: 29px;
-    font-family: Bellefair;
-    font-weight: 400;
-color: #395CAB;
+
+.program-id-location {
+  text-align: center;
+  font-size: 29px;
+  font-family: Bellefair;
+  font-weight: 400;
+  color: #395CAB;
 }
-.energy-text-testi{
-    color: #395CAB;
-    font-size: 73px;
-    font-weight: 300;
-    margin-top: 13px;
-    margin-bottom: 0;
-    font-family: "Arsenal SC";
+
+.energy-text-testi {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 300;
+  margin-top: 13px;
+  margin-bottom: 0;
+  font-family: "Arsenal SC";
 }
-.energy-text-test{
-    color: #395CAB;
-    font-size: 73px;
-    font-weight: 300;
-    margin-top: -32px;
-    margin-bottom: 0;
-    font-family: "Arsenal SC";
+
+.energy-text-test {
+  color: #395CAB;
+  font-size: 73px;
+  font-weight: 300;
+  margin-top: -32px;
+  margin-bottom: 0;
+  font-family: "Arsenal SC";
 }
-.testi-contain{
+
+.testi-contain {
   margin-top: 60px;
 }
-.home-bg-contact-field{
+
+.home-bg-contact-field {
   background-color: #fff;
 }
-.home-contactform{
+
+.home-contactform {
   background-color: #EBEFF7;
   margin-top: 65px;
 }
-.contact-headtext{
+
+.contact-headtext {
   font-weight: 400;
   font-size: 30px;
-   font-family: Bellefair;
-   color: #14253B;
+  font-family: Bellefair;
+  color: #14253B;
 }
-.text-contact{
-   font-weight: 400;
+
+.text-contact {
+  font-weight: 400;
   font-size: 14px;
-    font-family: Avenir;
-   color: #64748B;
+  font-family: Avenir;
+  color: #64748B;
 }
-.home-contact-form{
+
+.home-contact-form {
   margin-top: 65px;
 }
+
 .footer-copy-right {
   font-size: 16px;
   color: #7994D1;
   float: right;
 }
+
 .footer-copy-left {
   font-size: 16px;
   color: #7994D1;
   float: left;
 }
-.footer-title .footer-logo{
+
+.footer-title .footer-logo {
   text-align: center;
   width: 100%;
 }
-.about-welcome-text{
+
+.about-welcome-text {
   font-family: Bellefair;
   font-size: 58px;
   color: #444655;
   line-height: 80px;
   padding: 0 235px 0 0;
 }
-.about-welcome-sub-text{
-font-family: Avenir;
-	font-weight: 400 !important;
-	font-size: 18px;
-	color: #71758E;
+
+.about-welcome-sub-text {
+  font-family: Avenir;
+  font-weight: 400 !important;
+  font-size: 18px;
+  color: #71758E;
 }
-.mission-sub-txte{
+
+.mission-sub-txte {
   color: #395CAB;
-    font-size: 42px;
-    font-weight: 300;
-    font-family: "Arsenal SC";
-    text-transform: uppercase !important;
+  font-size: 42px;
+  font-weight: 300;
+  font-family: "Arsenal SC";
+  text-transform: uppercase !important;
 }
-.deepan-img{
+
+.deepan-img {
   width: 100%;
   margin: 140px 0px 0 -29px;
 }
-.about-content-me{
+
+.about-content-me {
   margin: 113px 0 100px 0 !important;
 }
-.about-for-img{
+
+.about-for-img {
   margin: 80px 0 0 0 !important;
 }
-.reflex-container{
+
+.reflex-container {
   padding: 30px 0 152px 0;
 }
-.py-12{
+
+.py-12 {
   margin: 70px 0;
 }
-.footer{
-  background-image: url('/footer-bg.png'); 
-  background-size: cover;       
+
+.footer {
+  background-image: url('/footer-bg.png');
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0;
   margin-top: 90px !important;
 }
-.problem-head{
+
+.problem-head {
   font-size: 50px !important;
 }
-.problems{
+
+.problems {
   margin: 10px 0 50px 0;
 }
-
-
+/* Media Qureies */
 @media (max-width: 575.98px) {
-.banner-img{
-  background-image: none !important;
-  justify-content: left;
-  width: 330px;
-}
-.feet-text {
-	color: #395CAB;
-	font-size: 46px;
-	font-weight: 400;
-	font-family: "Arsenal SC";
-	line-height: 60px;
-  padding: 0;
-}
-.testimonial-text {
-	font-size: 18px;
-	font-family: Bellefair;
-	line-height: 30px;
-	color: #71758E;
-	font-weight: 400;
-	text-align: justify;
-	height: 443px !important;
-}
-.peace-right-row{
-  padding: 0 17px !important;
-  text-align: center;
-}
-.problem-head{
-  font-size: 26px !important;
-}
-.welcome-text{
-  font-size: 26px;
-}
-.welcome-texts{
-  padding: 0;
-} 
+  .banner-img {
+    background-image: none !important;
+    justify-content: left;
+    width: 330px;
+  }
+
+  .feet-text {
+    color: #395CAB;
+    font-size: 41px;
+    font-weight: 400;
+    font-family: "Arsenal SC";
+    line-height: 60px;
+    padding: 0;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+    font-family: Bellefair;
+    line-height: 30px;
+    color: #71758E;
+    font-weight: 400;
+    text-align: justify;
+    height: 443px !important;
+  }
+
+  .peace-right-row {
+    padding: 0 17px !important;
+    text-align: center;
+  }
+
+  .problem-head {
+    font-size: 26px !important;
+  }
+
+  .welcome-text {
+    font-size: 26px;
+  }
+
+  .welcome-texts {
+    padding: 0;
+  }
+
+  .reflex {
+    background-image: url('/reflexology.png');
+    background-size: inherit;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    width: 397px;
+  }
+
+  .reflex-container {
+    padding-bottom: 0 !important;
+  }
+
+  .contact-right {
+    padding: 5px !important;
+  }
+
+  .mb-contact {
+    width: 130px !important;
+  }
+
+  .about-welcome-text {
+    padding: 5px !important;
+  }
 }

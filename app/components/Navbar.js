@@ -131,9 +131,9 @@ export default function Navbar() {
               </li>
               <li>
                 <Link 
-                  href='/programs' 
+                  href='/our-program' 
                   className={`block text-decoration-none px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
-                    ${isActive('/program') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
+                    ${isActive('/our-program') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Our Programs

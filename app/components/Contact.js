@@ -98,7 +98,7 @@ export default function Contact() {
                           value={formData.mobile}
                           onChange={handleInputChange}
                           placeholder="Enter your contact number"
-                          className="flex-1 bg-contact-field px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+                          className="flex-1 bg-contact-field px-4 py-3 mb-contact border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                           required
                         />
                       </div>
