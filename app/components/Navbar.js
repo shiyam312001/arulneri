@@ -122,7 +122,7 @@ export default function Navbar() {
               <li>
                 <Link 
                   href='/' 
-                  className={`block px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
+                  className={`block text-decoration-none px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
                     ${isActive('/') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -132,8 +132,8 @@ export default function Navbar() {
               <li>
                 <Link 
                   href='/programs' 
-                  className={`block px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
-                    ${isActive('/programs') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
+                  className={`block text-decoration-none px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
+                    ${isActive('/program') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Our Programs
@@ -142,7 +142,7 @@ export default function Navbar() {
               <li>
                 <Link 
                   href='/about' 
-                  className={`block px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
+                  className={`block text-decoration-none px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
                     ${isActive('/about') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -151,9 +151,9 @@ export default function Navbar() {
               </li>
               <li>
                 <Link 
-                  href='/testimonial' 
-                  className={`block px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
-                    ${isActive('/testimonial') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
+                  href='/testimonials' 
+                  className={`block text-decoration-none px-4 py-2 text-lg nav-menus font-medium hover:text-blue-600 transition duration-300
+                    ${isActive('/testimonials') ? 'text-blue-600 border-l-4 border-blue-600 pl-3' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Testimonials
@@ -162,7 +162,7 @@ export default function Navbar() {
               <li className='px-4 pt-2'>
                 <Link 
                   href='/contact' 
-                  className='block w-full text-center nav-menus px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 font-medium'
+                  className='block text-decoration-none w-full text-center nav-menus px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 font-medium'
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Appointment
