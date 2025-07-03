@@ -850,6 +850,9 @@
 .py-12 {
   margin: 70px 0;
 }
+.testimonial-page{
+  margin-top: -77px;
+}
 
 .footer {
   background-image: url('/footer-bg.png');
@@ -933,4 +936,14 @@
   .about-welcome-text {
     padding: 5px !important;
   }
+  .about-me-img {
+	background-image: url('/profile-bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+}
 }
