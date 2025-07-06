@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Problems() {
   return (
     <div>
-      <div className='problems'>
+      <div className='problems animate-on-load'>
         <div className='container'>
             <div className='row'>
                 <div className='col-md-12 text-center'>

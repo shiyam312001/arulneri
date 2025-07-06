@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Cure() {
   return (
-    <div className='cure-section'>
+    <div className='cure-section animate-on-load'>
     <div className='container'>
         <div className='row justify-content-center mb-6'>
           <div className='col-md-12 text-center'>

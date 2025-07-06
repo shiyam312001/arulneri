@@ -35,7 +35,7 @@ export default function Program() {
   };
 
   return (
-    <div className='program'>
+    <div className='program animate-on-load'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12'>

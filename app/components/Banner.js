@@ -4,10 +4,9 @@ import Link from 'next/link';
 
 export default function Banner() {
   return (
-    <div className="banner">
+    <div className="banner animate-on-load">
       <div className="container py-5">
         <div className="row align-items-center">
-          {/* Text Content */}
           <div className="col-md-7 text-start order-2 order-md-1">
             <p className="welcome-text">Welcome to Arulneri Healthcare</p>
             <p className="welcome-texts">

@@ -54,7 +54,7 @@ export default function HomeContact() {
   };
 
   return (
-    <div className='home-contact-form'>
+    <div className='home-contact-form animate-on-load'>
       <div className='container'>
         <div className='row contact-row'>
           <p className='contact-head-title'>&quot;More than treatment — We offer Love and Care&quot;</p>
