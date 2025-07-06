@@ -10,13 +10,10 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
-
-  // Handle client-side mounting
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Handle scroll effect
   useEffect(() => {
     if (!mounted) return;
     
@@ -32,7 +29,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [mounted]);
 
-  // Check if the link is active
   const isActive = (path) => {
     if (!mounted) return false;
     return pathname === path;

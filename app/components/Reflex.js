@@ -5,7 +5,7 @@ export default function Reflex() {
     <div className='reflex'>
       <div className='container reflex-container'>
         <div className='row ref-row'>
-            <div className='col-md-5 refs-row'>
+            <div className='col-md-5 refs-row order-2 order-md-1'>
                 <div className="banner-img-ref">
                               <Image
                                 src="/refimg.png"
@@ -17,7 +17,7 @@ export default function Reflex() {
                               />
                             </div>
             </div>
-            <div className='col-md-7 reflex-row'>
+            <div className='col-md-7 reflex-row order-1 order-md-2'>
                 <p className='ref-head'>Unlock Natural Healing of Foot Reflexology</p>
                 <p className='ref-subhead'>Why Foot Reflexology?</p>
                 <p className='ref-para'>Foot Reflexology treats the root cause, not just the symptoms, helping you achieve lasting health and wellness safely and naturally.</p>

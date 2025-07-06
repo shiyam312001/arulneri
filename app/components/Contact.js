@@ -134,7 +134,7 @@ export default function Contact() {
           <p className='contact-right-head'>Contact Us</p>
           <p className='contact-right-subhead'>Let&apos;s walk the path to healing together</p>
         
-          <div className='col-md-12 d-flex align-items-start mb-3'>
+          <div className='col-md-12 d-flex align-items-start mb-3 contact-infs'>
             <div className='me-3'>
               <Image
                 src="/mail.png"
@@ -150,7 +150,7 @@ export default function Contact() {
               <p className='icon-text about-inform mb-0'>arulnerihealcare@gmail.com</p>
             </div>
           </div>
-           <div className='col-md-12 d-flex align-items-start mb-3'>
+           <div className='col-md-12 d-flex align-items-start mb-3 contact-infs'>
             <div className='me-3'>
               <Image
                 src="/mob.png"
@@ -166,7 +166,7 @@ export default function Contact() {
               <p className='icon-text about-inform mb-0'>+91 88832 20081</p>
             </div>
           </div>
-            <div className='col-md-12 d-flex align-items-start mb-3'>
+            <div className='col-md-12 d-flex align-items-start mb-3 contact-infs'>
             <div className='me-3'>
               <Image
                 src="/loc.png"

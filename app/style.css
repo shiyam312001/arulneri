@@ -2,7 +2,12 @@
   padding: 20px 0;
 
 }
-
+.nav-menus{
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: Avenir !important;
+  color: #444655 !important;
+}
 .appointment {
   border-radius: 20px 20px 20px 0;
 }
@@ -112,7 +117,6 @@
 
 .banner-img-ref {
   background-image: url('/background-img.png');
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -182,6 +186,7 @@
 
 .treatments {
   margin: 30px 0;
+  clear: both;
 }
 
 .treatment-title {
@@ -641,17 +646,21 @@
 }
 
 .about-me {
-  background-image: url('/about-bg.png');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0 85px 0px;
+	background-image: url('/about-bg.png');
+	background-size: cover;
+	background-position: center;
+	padding: 366px 0 180px 0px;
+	margin-bottom: -150px;
+	margin-top: -342px;
 }
 
 .contact-form {
   background-image: url('/contact.png');
   background-size: cover;
   background-position: center;
-  padding: 100px 0 85px 0px;
+  padding: 100px 0 130px 0px;
+  margin-top: 50px;
+  margin-bottom: -170px;
 }
 
 .bg-contact-field {
@@ -869,6 +878,10 @@
 .problems {
   margin: 10px 0 50px 0;
 }
+.contact-form{
+  margin-top: 50px;
+  margin-bottom: -170px;
+}
 /* Media Qureies */
 @media (max-width: 575.98px) {
   .banner-img {
@@ -904,20 +917,26 @@
   .problem-head {
     font-size: 26px !important;
   }
+.welcome-text {
+	font-size: 18px;
+	text-align: center;
+}
 
-  .welcome-text {
-    font-size: 26px;
-  }
-
-  .welcome-texts {
-    padding: 0;
-  }
+ .welcome-texts {
+	font-family: Bellefair;
+	font-size: 26px;
+	color: #444655;
+	line-height: 42px;
+	padding: 0 90px 0 0;
+	text-align: center;
+	padding: 0 11px !important;
+}
 
   .reflex {
     background-image: url('/reflexology.png');
     background-size: inherit;
     background-repeat: no-repeat;
-    margin-bottom: 80px;
+    margin-bottom: 0;
     width: 397px;
   }
 
@@ -945,5 +964,287 @@
 	justify-content: center;
 	align-items: center;
   width: 100%;
+}
+.nav-menus-btn {
+	padding: 0 95px;
+  margin: 0 11px;
+  font-size: 16px;
+}
+.welcome-sub-text {
+	font-family: Avenir;
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #71758E;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.energy-section {
+	padding: 38px 0 60px 0;
+}
+.energy-texts {
+	font-size: 44px;
+  margin-top: 0 !important;
+}
+.energy-text{
+	font-size: 44px;
+  margin-top: 0;
+}
+.ref-head {
+	font-family: Bellefair;
+	font-weight: 400;
+	font-size: 16px;
+	color: #395CAB;
+	text-align: center;
+}
+.ref-subhead {
+	font-family: Bellefair;
+	font-weight: 400;
+	font-size: 26px;
+	color: #444655;
+	text-align: center;
+}
+.ref-para {
+	font-family: Avenir;
+	font-size: 14px;
+	color: #71758E;
+	text-align: center;
+}
+.treatment-head {
+	font-size: 26px;
+	font-family: Bellefair;
+	font-weight: 400;
+	color: #444655;
+}
+.treatment-subhead {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Bellefair;
+	color: #395CAB;
+}
+.treatment-title {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 35px 0 0 0;
+	color: #444655;
+	font-family: Bellefair;
+}
+.treatment-para {
+	font-family: Avenir;
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #71758E;
+	padding: 10px 0;
+}
+.cure-head {
+	color: #395CAB;
+	font-size: 31px;
+	font-weight: 400;
+	font-family: "Arsenal SC";
+}
+.cure-subhead {
+	color: #395CAB;
+	font-size: 31px;
+	font-weight: 300;
+	font-family: "Arsenal SC";
+	margin-top: -30px;
+}
+.program-title {
+	font-size: 26px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	text-align: center;
+}
+.program-sub {
+	font-size: 16px;
+	font-family: Bellefair;
+	color: #395CAB;
+	font-weight: 400;
+	text-align: center;
+}
+.feet-text {
+	color: #395CAB;
+	font-size: 31px;
+	font-weight: 400;
+	font-family: "Arsenal SC";
+	line-height: 51px;
+	padding: 0;
+	text-align: center;
+  margin-top: -64px;
+}
+.word-title {
+	font-size: 26px;
+}
+.word-testimonial {
+	font-size: 16px;
+}
+.testimonial-text {
+	font-size: 14px;
+}
+.testimonial-author {
+	font-size: 20px;
+}
+.testimonial-desgination {
+	font-size: 14px;
+}
+.contact-head-title {
+	font-size: 26px;
+}
+.about-welcome-text {
+	font-family: Bellefair;
+	font-size: 26px;
+	color: #444655;
+	line-height: 42px;
+	text-align: center;
+	padding: 0 44px !important;
+}
+.about-welcome-sub-text {
+	font-family: Avenir;
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #71758E;
+  text-align: center;
+}
+
+.energy-text-test {
+	color: #395CAB;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Arsenal SC";
+}
+.energy-text-testi {
+	color: #395CAB;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: 0; 
+	margin-bottom: 0;
+	font-family: "Arsenal SC";
+}
+.enegergy2-section{
+  padding: 0 0 60px 0;
+}
+.contact-right-head-cc {
+	font-size: 24px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	padding: 127px 0 2px 0;
+	text-align: center;
+}
+.contact-right-subhead-cc {
+	font-size: 14px;
+	font-family: Bellefair;
+	color: #6D758F;
+	font-weight: 400;
+	margin-top: -18px;
+	padding: 0 0 30px 0;
+	text-align: center;
+}
+.contact-right-head {
+	font-size: 24px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	text-align: center;
+}
+.contact-right-subhead {
+	font-size: 14px;
+	font-family: Bellefair;
+	color: #6D758F;
+	font-weight: 400;
+	margin-top: -18px;
+	text-align: center;
+}
+.contact-infs{
+  padding: 0 30px;
+}
+.banner-mob-abt{
+  margin-bottom: -50px !important;
+}
+.mission-text {
+	font-size: 30px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	margin: -4px 0 0 15px;
+}
+.mission-sub-text {
+	font-size: 18px;
+	font-family: Bellefair;
+	color: #395CAB;
+	margin-top: 17px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.mission-sub-txt {
+	color: #395CAB;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: "Arsenal SC";
+	text-transform: uppercase !important;
+}
+.mission-sub-txte {
+	color: #395CAB;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: "Arsenal SC";
+	text-transform: uppercase !important;
+}
+.about-me{
+ padding: 0 !important;
+  margin-top: -115px;
+}
+.about-main-title {
+	font-size: 16px;
+	font-family: Bellefair;
+	color: #395CAB;
+	margin-top: 80px;
+	font-weight: 400;
+	text-align: center;
+}
+.about-title {
+	font-size: 26px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	text-align: center;
+}
+.about-txt {
+	font-size: 14px;
+	font-family: Avenir;
+	font-weight: 400;
+	color: #71758E;
+	text-align: justify;
+}
+.about-content-me {
+	margin: 60px 0 0 0 !important;
+}
+.about-for-img {
+	margin: 0px 0 0 0 !important;
+}
+.about-logo{
+  width: 100%;
+}
+.about-text-sec {
+	color: #6D758F;
+	font-size: 14px;
+	font-family: Avenir;
+	font-weight: 400;
+	padding: 0 35px 0 0;
+	text-align: justify;
+}
+.footer-menu li {
+	font-size: 14px;
+	cursor: pointer;
+}
+.footer-copy-left {
+	font-size: 11px;
+	color: #7994D1;
+	float: left;
+}
+.about-me{
+  margin-bottom: 0 !important;
 }
 }
