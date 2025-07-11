@@ -45,7 +45,7 @@ export default function Navbar() {
                 width={150}
                 height={40}
                 alt="Arulneri Healcare Logo"
-                className="img-fluid"
+                className="img-fluid logo-arul"
               />
             </Link>
           </div>

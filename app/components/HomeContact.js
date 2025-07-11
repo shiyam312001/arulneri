@@ -65,7 +65,15 @@ export default function HomeContact() {
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded contactimg"
+                className="img-fluid rounded contactimg d-none d-md-block"
+                priority={true}
+              />
+                <Image
+                src="/contact-img-mob.png"
+                width={460}
+                height={500}
+                alt="Arulneri Healthcare Banner"
+                className="img-fluid rounded d-block d-md-none"
                 priority={true}
               />
             </div>

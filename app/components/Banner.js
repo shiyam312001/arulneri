@@ -8,7 +8,7 @@ export default function Banner() {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-md-7 text-start order-2 order-md-1">
-            <p className="welcome-text">Welcome to Arulneri Healthcare</p>
+            <p className="welcome-text">Welcome to Arulneri Healcare</p>
             <p className="welcome-texts">
               Heal Your Health, Mind, Body, and Soul with Foot Reflexology.
             </p>

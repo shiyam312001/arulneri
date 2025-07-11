@@ -998,6 +998,10 @@
     text-align: justify;
     height: 443px !important;
   }
+  .reflex-row {
+	padding: 0 0px 0 0;
+	margin-top: -50px !important;
+}
 
   .peace-right-row {
     padding: 0 17px !important;
@@ -1019,17 +1023,26 @@
 	line-height: 42px;
 	padding: 0 90px 0 0;
 	text-align: center;
-	padding: 0 11px !important;
+	padding: 0 41px !important;
 }
 
   .reflex {
-    background-image: url('/reflexology.png');
+    background-image: url('/ref-img-mob.png');
     background-size: inherit;
     background-repeat: no-repeat;
     margin-bottom: 0;
     width: 397px;
+    margin-left: 10px;
   }
-
+.reflex-banner{
+  background-image: none;
+}
+.ref-mob-img{
+  margin-top: -60px;
+}
+.ref-row {
+	margin: 25px 0 !important;
+}
   .reflex-container {
     padding-bottom: 0 !important;
   }
@@ -1056,7 +1069,7 @@
   width: 100%;
 }
 .nav-menus-btn {
-	padding: 0 95px;
+	padding: 0 114px;
   margin: 0 11px;
   font-size: 16px;
 }
@@ -1098,7 +1111,9 @@
 	font-size: 14px;
 	color: #71758E;
 	text-align: center;
+  padding: 0 15px 0 0;
 }
+
 .treatment-head {
 	font-size: 26px;
 	font-family: Bellefair;
@@ -1112,11 +1127,17 @@
 	color: #395CAB;
 }
 .treatment-title {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
-	margin: 35px 0 0 0;
+	margin: 0 0 0 0;
 	color: #444655;
 	font-family: Bellefair;
+}
+.nature-section img {
+	text-align: center;
+	object-fit: contain;
+	width: 65px;
+	height: 85px;
 }
 .treatment-para {
 	font-family: Avenir;
@@ -1253,6 +1274,17 @@
 .banner-mob-abt{
   margin-bottom: -50px !important;
 }
+.peace {
+	background-image: url('/peace-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+	margin-left: -6px;
+}
+.banner-img-ref {
+  background-image: none;
+}
 .mission-text {
 	font-size: 30px;
 	font-family: Bellefair;
@@ -1336,5 +1368,14 @@
 }
 .about-me{
   margin-bottom: 0 !important;
+}
+.logo-arul{
+  width: 161px;
+}
+.home-contact-form {
+	margin-top: -50px;
+}
+.contact-form-box{
+  margin-top: -66px;
 }
 }
