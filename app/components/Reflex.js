@@ -36,7 +36,7 @@ export default function Reflex() {
           </div>
 
           {/* Headings & Paragraphs on Desktop, Paragraphs only on Mobile */}
-          <div className='col-12 col-md-7 reflex-row order-3 order-md-2'>
+          <div className='col-12 col-md-7 reflex-row  order-3 order-md-2'>
             {/* Headings (Desktop Only) */}
             <div className='d-none d-md-block'>
               <p className='ref-head'>Unlock Natural Healing of Foot Reflexology</p>
@@ -49,7 +49,7 @@ export default function Reflex() {
             </p>
             <p className='ref-para ref-para2'>
               Other Medicines are designed to quickly target symptoms, but they often come with unwanted side effects like fatigue, digestive issues,
-              long-term dependency, and cause side effect in kidney and other important organs in body, but Foot Reflexology works naturally by stimulating your body's own healing systems without introducing chemicals or artificial substances.
+              long-term dependency, and cause side effect in kidney and other important organs in body, but Foot Reflexology works naturally by stimulating your body&apos;s own healing systems without introducing chemicals or artificial substances.
             </p>
             <p className='ref-para ref-para3'>
               It enhances circulation, reduces stress, balances energy flow, and strengthens your immune system — all without the risk of side effects.
