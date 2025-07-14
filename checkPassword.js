@@ -1,7 +1,7 @@
 const bcrypt = require('bcryptjs');
 
-const hash = '$2b$12$v47fbER3hP0ApJQI8XCwhu6ZKm5hAODXvqoxJtuqYjf/x4FkC1iUa';
-const inputPassword = 'ADMIN123@'; // Replace with your guessed password
+const hash = '$2b$10$DLP0RLk.QIEL0H6HOFrIgucuSNxe.V/HApi53oKVJZlZwceJOpy76';
+const inputPassword = 'Deepan@123'; 
 
 bcrypt.compare(inputPassword, hash, (err, res) => {
   if (err) {
@@ -15,3 +15,4 @@ bcrypt.compare(inputPassword, hash, (err, res) => {
     console.log('❌ No match.');
   }
 });
+
