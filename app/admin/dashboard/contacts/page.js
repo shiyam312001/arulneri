@@ -11,6 +11,20 @@ export default function ContactsPage() {
   const [admin, setAdmin] = useState(null);
   const [activeTab, setActiveTab] = useState('contacts');
   const router = useRouter();
+useEffect(() => {
+  // Hide header and footer when this page is mounted
+  const header = document.querySelector('.header');
+  const footer = document.querySelector('.footer');
+
+  if (header) header.style.display = 'none';
+  if (footer) footer.style.display = 'none';
+
+  return () => {
+    // Restore visibility when component unmounts
+    if (header) header.style.display = '';
+    if (footer) footer.style.display = '';
+  };
+}, []);
 
   // Fetch admin info
   useEffect(() => {
