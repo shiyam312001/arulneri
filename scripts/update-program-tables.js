@@ -5,10 +5,10 @@ async function updateTables() {
   try {
     console.log('Connecting to database...');
     connection = await mysql.createConnection({
-      host: process.env.DB_HOST || 'sql12.freesqldatabase.com',
-  user: process.env.DB_USER || 'sql12786903',
-  password: process.env.DB_PASSWORD || 'hZRw3Z3l7Q',
-  database: process.env.DB_NAME || 'sql12786903',
+        host: process.env.DB_HOST || 'mysql-327eb5fc-shiyam-69d6.e.aivencloud.com',
+  user: process.env.DB_USER || 'avnadmin',
+  password: process.env.DB_PASSWORD || 'AVNS_ASlanWgqbkNXB5oAqDe',
+  database: process.env.DB_NAME || 'defaultdb',
     });
 
     console.log('✅ Database connection successful');
