@@ -83,10 +83,6 @@ export default function Footer() {
   </div>
 </div>
 
-
-
-
-
         <hr className="bg-white opacity-25" />
 
         {/* Footer Copyright and Social */}

@@ -41,7 +41,7 @@ export default function Navbar() {
           <div className='flex-shrink-0'>
             <Link href='/'>
               <Image
-                src="/Logo.png"
+                src="/logo.png"
                 width={150}
                 height={40}
                 alt="Arulneri Healcare Logo"

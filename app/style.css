@@ -213,6 +213,7 @@
   font-weight: 400;
   font-size: 29px;
   color: #395CAB;
+  padding: 50px 0 0 0;
 }
 
 .ref-subhead {
@@ -739,9 +740,9 @@
 	background-image: url('/about-bg.png');
 	background-size: cover;
 	background-position: center;
-	padding: 366px 0 180px 0px;
+	padding: 0 0 180px 0px;
 	margin-bottom: -150px;
-	margin-top: -342px;
+  margin-top: 100px;
 }
 
 .contact-form {
@@ -1110,8 +1111,7 @@
 	font-family: Avenir;
 	font-size: 14px;
 	color: #71758E;
-	text-align: center;
-  padding: 0 15px 0 0;
+  padding: 0 31px 0 0;
 }
 
 .treatment-head {
@@ -1315,9 +1315,12 @@
 	text-transform: uppercase !important;
 }
 .about-me{
- padding: 0 !important;
-  margin-top: -115px;
+ padding: 0 0 224px 0 !important;
+    margin-top: 0;
+  	background-image: url('/about-bg-mob.png');
+    margin-bottom: -135px !important;
 }
+
 .about-main-title {
 	font-size: 16px;
 	font-family: Bellefair;
@@ -1366,16 +1369,16 @@
 	color: #7994D1;
 	float: left;
 }
-.about-me{
-  margin-bottom: 0 !important;
-}
+
 .logo-arul{
   width: 161px;
 }
 .home-contact-form {
 	margin-top: -50px;
 }
-.contact-form-box{
-  margin-top: -66px;
+
+.contact-form {
+  background-image: url('/contact-mob-bg.png');
+  margin-top: 0;
 }
 }
