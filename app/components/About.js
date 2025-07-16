@@ -28,7 +28,7 @@ export default function About() {
             <div className='row'>
                 <div className='col-md-7'>
  <Image
-                                    src="/logo.png"
+                                    src="/Logo.png"
                                     width={252}
                                     height={66}
                                     alt="Arulneri Healthcare about-logo"
