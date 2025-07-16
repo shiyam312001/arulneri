@@ -79,7 +79,7 @@ export default function HomeContact() {
             </div>
           </div>
 
-          <div className='col-md-6'>
+          <div className='col-md-6 home-contact-row'>
             <div className='contact-form-box'>
               <div className="rounded-2xl shadow-xl p-8 home-contactform">
                 <div className="rounded-lg p-6">

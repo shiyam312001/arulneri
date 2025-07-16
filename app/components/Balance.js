@@ -7,7 +7,7 @@ export default function Balance() {
     <div className="balance">
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-md-7 text-start order-2 order-md-1">
+          <div className="col-md-7 balance-order-row text-start order-2 order-md-1">
             <p className="welcome-text">The Art of Arulneri Healcare</p>
             <p className="about-welcome-text">
               Heal, Balance, and Rejuvenate your 
@@ -21,7 +21,7 @@ Body Naturally.
             </p>
           </div>
 
-          <div className="col-md-5 text-center order-1 order-md-2">
+          <div className="col-md-5 balance-order-row2 text-center order-1 order-md-2">
             <div className="banner-img">
               <Image
                 src="/about-banner.png"

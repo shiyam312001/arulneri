@@ -1381,4 +1381,19 @@
   background-image: url('/contact-mob-bg.png');
   margin-top: 0;
 }
+.ref-head-mob{
+margin: 25px 0 10px 0;
+}
+.peace-img-mob{
+  margin-left: -55px;
+}
+.home-contact-row{
+  margin-top: -80px !important;
+}
+.balance-order-row{
+  margin-top: -60px !important;
+}
+.balance-order-row2{
+  margin-top: -20px !important;
+}
 }

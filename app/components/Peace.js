@@ -10,7 +10,7 @@ export default function Peace() {
 
           {/* Headings (Mobile Only) */}
           <div className='col-12 d-md-none order-1'>
-            <p className='ref-head'>The Path to Peace and Relaxation Often Begins</p>
+            <p className='ref-head ref-head-mob'>The Path to Peace and Relaxation Often Begins</p>
             <p className='ref-subhead'>Why Foot Reflexology?</p>
           </div>
 
@@ -32,7 +32,7 @@ export default function Peace() {
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded d-block d-md-none"
+                className="img-fluid rounded d-block d-md-none peace-img-mob"
                 priority={true}
               />
             </div>

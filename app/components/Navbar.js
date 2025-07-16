@@ -35,7 +35,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className={`header bg-white ${scrolled ? 'shadow-md' : ''}  w-full z-50 transition-shadow duration-300`}>
+    <div className={`header ${scrolled ? 'shadow-md' : ''}  w-full z-50 transition-shadow duration-300`}>
       <div className='container mx-auto px-4 py-3'>
         <div className='flex justify-between items-center'>
           <div className='flex-shrink-0'>
