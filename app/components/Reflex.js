@@ -15,7 +15,7 @@ export default function Reflex() {
 
           {/* Image */}
           <div className='col-12 col-md-5 refs-row order-2 order-md-1'>
-            <div className="banner-img-ref reflex-banner">
+            <div className="banner-img-ref reflex-banner reflex-mb-banner">
               <Image
                 src="/refimg.png"
                 width={460}

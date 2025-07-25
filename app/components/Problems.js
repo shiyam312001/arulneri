@@ -11,7 +11,7 @@ export default function Problems() {
             <h2 className='text-2xl font-bold treatment-head problem-head'>How Foot Reflexology Solves Your Health Problems</h2>
             <p className='text-lg treatment-subhead'>Every Point In Your Foot Connects To An Organ</p>
 </div>
-<div className='col-md-6 py-5'>
+<div className='col-md-6 py-3'>
        <Image
                                     src="/foot-chart.jpg"
                                     width={530}

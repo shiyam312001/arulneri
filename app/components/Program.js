@@ -56,7 +56,7 @@ export default function Program() {
                 programs.map((program) => (
                   <div 
                     key={program.id} 
-                    className='col-md-3 recent-pg'
+                    className='col-6 col-md-3  recent-pg'
                     onClick={() => handleProgramClick(program.id)}
                     style={{ cursor: 'pointer' }}
                   >

@@ -1001,11 +1001,11 @@
   }
   .reflex-row {
 	padding: 0 0px 0 0;
-	margin-top: -50px !important;
+	margin-top: -90px !important;
 }
 
   .peace-right-row {
-    padding: 0 17px !important;
+    padding: 0 0 !important;
     text-align: center;
   }
 
@@ -1029,11 +1029,12 @@
 
   .reflex {
     background-image: url('/ref-img-mob.png');
-    background-size: inherit;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
-    width: 397px;
-    margin-left: 10px;
+    width: 100%;
+    height: 840px;
+    margin-left: -1px;
   }
 .reflex-banner{
   background-image: none;
@@ -1080,10 +1081,11 @@
 	font-size: 14px;
 	color: #71758E;
 	margin-bottom: 35px;
-	text-align: center;
+	text-align: justify;
+  padding: 0 25px;
 }
 .energy-section {
-	padding: 38px 0 60px 0;
+	padding: 38px 0 0 0;
 }
 .energy-texts {
 	font-size: 44px;
@@ -1111,7 +1113,7 @@
 	font-family: Avenir;
 	font-size: 14px;
 	color: #71758E;
-  padding: 0 31px 0 0;
+  padding: 0 5px 0 0;
 }
 
 .treatment-head {
@@ -1121,7 +1123,7 @@
 	color: #444655;
 }
 .treatment-subhead {
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 400;
 	font-family: Bellefair;
 	color: #395CAB;
@@ -1275,12 +1277,12 @@
   margin-bottom: -50px !important;
 }
 .peace {
-	background-image: url('/peace-bg.png');
+	background-image: url('/peace-bg-mob.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	float: left;
-	margin-left: -6px;
+	width: 100% !important;
+	margin-left: 0px !important;
+	height: 2200px !important;
 }
 .banner-img-ref {
   background-image: none;
@@ -1385,7 +1387,7 @@
 margin: 25px 0 10px 0;
 }
 .peace-img-mob{
-  margin-left: -55px;
+  margin: -50px 0 30px -50px;
 }
 .home-contact-row{
   margin-top: -80px !important;
@@ -1395,5 +1397,47 @@ margin: 25px 0 10px 0;
 }
 .balance-order-row2{
   margin-top: -20px !important;
+}
+.welcome-banner-control{
+  padding: 25px;
+  margin-top: -153px;
+}
+.welcome-ord-content{
+  margin-top: -60px !important;
+}
+.reflex-mb-banner{
+  padding: 20px;
+  margin: -17px 0 0 -19px;
+}
+.nature-section{
+  margin-top: -15px !important;
+}
+.problems {
+  margin: -40px 0 0 0;
+}
+.banner-imgmb-ref{
+  margin: -50px 0 30px 0;
+}
+.prog-img{
+  height: 147px !important;
+}
+.recent-pg {
+  margin-top: -160px !important;
+}
+.foot-text {
+	padding: 54px 0 0 0;
+}
+.feet-text {
+	color: #395CAB;
+	font-size: 31px;
+	font-weight: 400;
+	font-family: "Arsenal SC";
+	line-height: 51px;
+	padding: 0 47px;
+	text-align: center;
+	margin-top: -64px;
+}
+.py-12 {
+  margin: -65px 0 0 0;
 }
 }

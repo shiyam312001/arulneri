@@ -10,9 +10,9 @@ const treatments = [
 { title: 'Respiratory Issues', description: 'Enhance lung function and relaxation, improving breathing.', image: '/nature6.png' },
 { title: 'Kidney & Urinary', description: 'Reduce kidney stone, improve kidney function, and support it.', image: '/nature7.png' },
 { title: 'Menstrual Issues', description: 'Reproductive & endocrine point help regulate menstrual cycles.', image: '/nature8.png' },
-  { title: 'Blood Circulation', description: 'Improve blood flow, reduce swelling, & support overall health..', image: '/nature9.png' },
-  { title: 'Immune System', description: 'Improve energy levels, & support the body’s natural ability to heal.', image: '/nature10.png' },
-  { title: 'Hormonal Imbalance', description: 'Reflexology helps to supporting hormonal regulation.', image: '/nature11.png' },
+  { title: 'Hormonal Imbalance', description: 'Reflexology helps to supporting hormonal regulation.', image: '/nature9.png' },
+  { title: 'Blood Circulation', description: 'Improve blood flow, reduce swelling, & support overall health..', image: '/nature10.png' },
+  { title: 'Immune System', description: 'Improve energy levels, & support the body’s natural ability to heal.', image: '/nature11.png' },
   { title: 'General Wellness', description: 'Promote overall health, boost energy & improve body functions.', image: '/nature12.png' },
 
 ];
@@ -30,8 +30,8 @@ export default function Treatment() {
         <div className='row'>
           {treatments.map((treatment, index) => (
             <div key={index} className='col-6 col-md-3 nature-section p-2 hover-opacity-75'>
-              <div className='p-4 text-center'>
-                <div className='mb-3 image-contain'>
+<div className="p-0 p-md-4 text-center">
+                  <div className='mb-3 image-contain'>
                   <Image
                     src={treatment.image}
                     width={87}

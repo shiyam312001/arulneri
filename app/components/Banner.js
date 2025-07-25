@@ -7,7 +7,7 @@ export default function Banner() {
     <div className="banner animate-on-load">
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-md-7 text-start order-2 order-md-1">
+          <div className="col-md-7 text-start order-2 order-md-1 welcome-ord-content">
             <p className="welcome-text">Welcome to Arulneri Healcare</p>
             <p className="welcome-texts">
               Heal Your Health, Mind, Body, and Soul with Foot Reflexology.
@@ -25,7 +25,7 @@ export default function Banner() {
           </div>
 
           <div className="col-md-5 order-1 order-md-2 text-center">
-            <div className="banner-img">
+            <div className="banner-img welcome-banner-control">
               <Image
                 src="/banner-img.png"
                 width={460}

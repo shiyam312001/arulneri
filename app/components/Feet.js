@@ -21,6 +21,18 @@ export default function Feet() {
 wellness”</p>
                 </div>
             </div>
+             <div className='row justify-content-center mt-4'>
+          <div className='col-md-12 text-center'>
+                 <Image
+                                             src="/cure.png"
+                                             width={460}
+                                             height={500}
+                                             alt="Arulneri Healthcare"
+                                             className="img-fluid rounded cureimg"
+                                             priority={true} 
+                                           />
+          </div>
+        </div>
         </div>
       </div>
     </div>

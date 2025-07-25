@@ -11,18 +11,7 @@ export default function Cure() {
             <p className='cure-subhead'>“உணவே மருந்து”</p>
           </div>
         </div>
-       <div className='row justify-content-center mb-6'>
-          <div className='col-md-12 text-center'>
-                 <Image
-                                             src="/cure.png"
-                                             width={460}
-                                             height={500}
-                                             alt="Arulneri Healthcare"
-                                             className="img-fluid rounded cureimg"
-                                             priority={true} 
-                                           />
-          </div>
-        </div>
+      
         </div>  
     </div>
   )
