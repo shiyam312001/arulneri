@@ -1,26 +1,29 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export default function Testimonial() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const totalSlides = 2;
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % totalSlides);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [totalSlides]);
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % totalSlides);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
-  };
-
-  const testimonials = [
+ const testimonials = [
     [
       {
         text: "After trying foot reflexology, I experienced immediate relief from stress and chronic pain. The therapist's skillful pressure on my feet brought a sense of deep relaxation and rejuvenation. My sleep quality improved, and I felt more energized throughout the day. Reflexology has become a regular part of my wellness routine. It's not just about physical relief, but also emotional balance and clarity.",
@@ -54,54 +57,63 @@ export default function Testimonial() {
           <h2 className="word-title">Words of Our Loved Ones</h2>
           <p className="word-testimonial">Testimonials</p>
         </div>
-       <div className='container'>
-         <div className="relative col-md-12">
-          <div className="overflow-hidden">
-            <div
-              className="flex transition-transform duration-500 ease-in-out"
-              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-            >
-              {testimonials.map((slideTestimonials, slideIndex) => (
-                <div key={slideIndex} className="w-full flex-shrink-0">
-                  <div className="flex flex-wrap -mx-4 p-6">
-                    {slideTestimonials.map((testimonial, index) => (
-                      <div key={index} className="w-full md:w-1/2 px-4 mb-6">
-                        <div className="testimonial-box">
-                          <div className="flex flex-col h-full">
-                            <div className="flex-1">
-                              <p className="testimonial-text">&quot;{testimonial.text}&quot;</p>
-                            </div>
-                            <div className="">
-                              <p className="testimonial-author">- {testimonial.author}</p>
-                              <p className="testimonial-desgination">{testimonial.designation}</p>
+        <div className="container">
+          <div className="relative col-md-12">
+            <div className="overflow-hidden">
+              <div
+                className="flex transition-transform duration-500 ease-in-out"
+                style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+              >
+                {testimonials.map((slideTestimonials, slideIndex) => (
+                  <div key={slideIndex} className="w-full flex-shrink-0">
+                    <div className="flex flex-wrap -mx-4 p-6">
+                      {(isMobile
+                        ? [slideTestimonials[0]] // show only the first on mobile
+                        : slideTestimonials
+                      ).map((testimonial, index) => (
+                        <div key={index} className="w-full md:w-1/2 px-4 mb-6">
+                          <div className="testimonial-box">
+                            <div className="flex flex-col h-full">
+                              <div className="flex-1">
+                                <p className="testimonial-text">
+                                  &quot;{testimonial.text}&quot;
+                                </p>
+                              </div>
+                              <div>
+                                <p className="testimonial-author">
+                                  - {testimonial.author}
+                                </p>
+                                <p className="testimonial-desgination">
+                                  {testimonial.designation}
+                                </p>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Dots */}
+            <div className="flex justify-center mt-6 testi-dots-mb space-x-2">
+              {Array.from({ length: totalSlides }).map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentSlide(index)}
+                  className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                    currentSlide === index
+                      ? "bg-indigo-600 scale-110"
+                      : "bg-gray-300 hover:bg-indigo-400"
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
               ))}
             </div>
           </div>
-
-          {/* Dots */}
-          <div className="flex justify-center mt-6 space-x-2">
-            {Array.from({ length: totalSlides }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-200 ${
-                  currentSlide === index
-                    ? 'bg-indigo-600 scale-110'
-                    : 'bg-gray-300 hover:bg-indigo-400'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
         </div>
-       </div>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ export default function page() {
   
    <Banner />
    <Energy />
-  <Reflex />
+    <Reflex />
     <Treatment />
     <Problems />
     <Cure />
