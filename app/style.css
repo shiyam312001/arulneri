@@ -410,7 +410,7 @@
 }
 .testimonial-text {
   font-size: 18px;
-  font-family: Bellefair;
+  font-family: Avenir;
   line-height: 30px;
   color: #71758E;
   font-weight: 400;
@@ -992,12 +992,12 @@
 
   .testimonial-text {
     font-size: 18px;
-    font-family: Bellefair;
+    font-family: Avenir;
     line-height: 30px;
     color: #71758E;
     font-weight: 400;
     text-align: justify;
-    height: 443px !important;
+    height: 270px !important;
   }
   .reflex-row {
 	padding: 0 0px 0 0;
@@ -1436,8 +1436,8 @@ margin: 25px 0 10px 0;
 	font-size: 31px;
 	font-weight: 400;
 	font-family: "Arsenal SC";
-	line-height: 51px;
-	padding: 0 47px;
+	line-height: 38px;
+	padding: 0 0;
 	text-align: center;
 	margin-top: -64px;
 }
@@ -1485,5 +1485,8 @@ margin: 0 0 0 -29px !important;
 }
 .about-logo-mob{
   width: 191px !important;
+}
+.tamilword-img{
+  margin: -40px 0 40px 0;
 }
 }

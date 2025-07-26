@@ -38,7 +38,7 @@ export default function Testimonial() {
     ],
     [
       {
-        text: "I feel more focused and refreshed after each session. It's truly healing.",
+        text: "Foot reflexology has been a game changer for me! After just a few sessions, my stress levels dropped, and my body felt more relaxed. The targeted pressure on my feet helped alleviate my chronic pain and improved my energy. I'm sleeping better and feeling more balanced overall. It's an incredibly soothing and effective treatment. I highly recommend it to their well-being!",
         author: "Ravi",
         designation: "Entrepreneur"
       },
@@ -53,7 +53,7 @@ export default function Testimonial() {
   return (
     <div className="py-12 testi-contain">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-1">
           <h2 className="word-title">Words of Our Loved Ones</h2>
           <p className="word-testimonial">Testimonials</p>
         </div>
@@ -71,7 +71,7 @@ export default function Testimonial() {
                         ? [slideTestimonials[0]] // show only the first on mobile
                         : slideTestimonials
                       ).map((testimonial, index) => (
-                        <div key={index} className="w-full md:w-1/2 px-4 mb-6">
+                        <div key={index} className="w-full md:w-1/2 mb-6">
                           <div className="testimonial-box">
                             <div className="flex flex-col h-full">
                               <div className="flex-1">

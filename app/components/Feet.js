@@ -17,8 +17,8 @@ export default function Feet() {
             </div>
             <div className='col-md-6'>
                 <div className='foot-text'>
-                    <p className='feet-text'>“Every foot holds the map to 
-wellness”</p>
+                    <p className='feet-text'>“Every foot holds the <br className="d-md-none" /> map to 
+<br className="d-md-none" />wellness”</p>
                 </div>
             </div>
              <div className='row justify-content-center mt-4'>

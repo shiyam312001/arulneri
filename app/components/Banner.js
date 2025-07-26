@@ -9,9 +9,10 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-md-7 text-start order-2 order-md-1 welcome-ord-content">
             <p className="welcome-text">Welcome to Arulneri Healcare</p>
-            <p className="welcome-texts">
-              Heal Your Health, Mind, Body, and Soul with Foot Reflexology.
-            </p>
+          <p className="welcome-texts">
+  Heal Your Health, Mind, Body, and Soul with
+  <br className="d-md-none" /> Foot Reflexology.
+</p>
             <p className="welcome-sub-text">
               Through the ancient art of Foot Reflexology, we help your body overcome disease, 
               restore health, and rejuvenate your vitality from within.

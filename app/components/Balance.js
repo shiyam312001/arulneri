@@ -10,7 +10,7 @@ export default function Balance() {
           <div className="col-md-7 balance-order-row text-start order-2 order-md-1">
             <p className="welcome-text">The Art of Arulneri Healcare</p>
             <p className="about-welcome-text">
-              Heal, Balance, and Rejuvenate your 
+              Heal, Balance, and Rejuvenate your  <br className="d-md-none" /> 
 Body Naturally.
             </p>
             <p className="about-welcome-sub-text">
@@ -37,7 +37,7 @@ Body Naturally.
                 priority={true} 
               />
                 <Image
-                              src="/about-banner-mob.png"
+                              src="/about-banner-mobile.png"
                               width={460}
                               height={500}
                               alt="Arulneri Healthcare Banner"

@@ -71,7 +71,7 @@ export default function Testimonial() {
   return (
     <div className="py-12 testi-contain">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-1">
           <h2 className="word-title">Words of Our Loved Ones</h2>
           <p className="word-testimonial">Testimonials</p>
         </div>
@@ -88,7 +88,7 @@ export default function Testimonial() {
                       {slideTestimonials.map((testimonial, index) => (
                         <div
                           key={index}
-                          className="w-full md:w-1/2 px-4 mb-6"
+                          className="w-full md:w-1/2 mb-6"
                         >
                           <div className="testimonial-box">
                             <div className="flex flex-col h-full">
