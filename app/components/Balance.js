@@ -14,15 +14,20 @@ export default function Balance() {
 Body Naturally.
             </p>
             <p className="about-welcome-sub-text">
-              We awaken your body’s natural healing power through the gentle <br></br> art of foot reflexology.
-            </p>
-            <p className="about-welcome-sub-text">
-              Step into a journey of relaxation, balance, and complete <br></br> well-being.
-            </p>
+  We awaken your body’s natural healing power through the gentle
+  <span className="d-none d-md-inline"><br /></span>
+  art of foot reflexology.
+</p>
+<p className="about-welcome-sub-text">
+  Step into a journey of relaxation, balance, and complete
+  <span className="d-none d-md-inline"><br /></span>
+  well-being.
+</p>
+
           </div>
 
           <div className="col-md-5 balance-order-row2 text-center order-1 order-md-2">
-            <div className="banner-img">
+            <div className="banner-img balance-about-mob">
               <Image
                 src="/about-banner.png"
                 width={460}

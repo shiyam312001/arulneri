@@ -54,7 +54,7 @@ export default function Navbar() {
           <div className='lg:hidden'>
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className='p-2 text-gray-700 hover:text-blue-600 focus:outline-none'
+              className='p-2 btn-hmg text-gray-700 hover:text-blue-600 focus:outline-none'
             >
               <Menu size={24} />
             </button>

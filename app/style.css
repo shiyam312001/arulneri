@@ -978,7 +978,7 @@
   .banner-img {
     background-image: none !important;
     justify-content: left;
-    width: 330px;
+    width: 100%;
   }
 
   .feet-text {
@@ -1236,7 +1236,7 @@
 	font-family: "Arsenal SC";
 }
 .enegergy2-section{
-  padding: 0 0 60px 0;
+margin: -80px 0 -110px 0;
 }
 .contact-right-head-cc {
 	font-size: 24px;
@@ -1256,14 +1256,14 @@
 	text-align: center;
 }
 .contact-right-head {
-	font-size: 24px;
+	font-size: 26px;
 	font-family: Bellefair;
 	color: #444655;
 	font-weight: 400;
 	text-align: center;
 }
 .contact-right-subhead {
-	font-size: 14px;
+	font-size: 20px;
 	font-family: Bellefair;
 	color: #6D758F;
 	font-weight: 400;
@@ -1317,9 +1317,10 @@
 	text-transform: uppercase !important;
 }
 .about-me{
- padding: 0 0 224px 0 !important;
-    margin-top: 0;
+ padding: 0 0 94px 0 !important;
+    margin-top: -30px;
   	background-image: url('/about-bg-mob.png');
+    background-position: top !important;
     margin-bottom: -135px !important;
 }
 
@@ -1327,7 +1328,7 @@
 	font-size: 16px;
 	font-family: Bellefair;
 	color: #395CAB;
-	margin-top: 80px;
+	margin-top: 0 !important;
 	font-weight: 400;
 	text-align: center;
 }
@@ -1350,6 +1351,7 @@
 }
 .about-for-img {
 	margin: 0px 0 0 0 !important;
+  padding: 91px 0 0 0 !important;
 }
 .about-logo{
   width: 100%;
@@ -1367,9 +1369,10 @@
 	cursor: pointer;
 }
 .footer-copy-left {
-	font-size: 11px;
+	font-size: 10px;
 	color: #7994D1;
 	float: left;
+	margin: 10px 0 0 0;
 }
 
 .logo-arul{
@@ -1398,9 +1401,10 @@ margin: 25px 0 10px 0;
 .balance-order-row2{
   margin-top: -20px !important;
 }
-.welcome-banner-control{
-  padding: 25px;
-  margin-top: -153px;
+.welcome-banner-control {
+	padding: 40px;
+	height: 401px;
+	margin: -99px 0 50px 0;
 }
 .welcome-ord-content{
   margin-top: -60px !important;
@@ -1455,5 +1459,31 @@ margin: 25px 0 10px 0;
 }
 .contact-section-mb{
   margin: -40px 0 -10px 0;
+}
+.rec-prg-img{
+  height: 150px !important;
+}
+.btn-hmg{
+  background: #EAEEF6;
+  padding: 5px 5px !important;
+  border-radius: 6px;
+}
+.balance-about-mob {
+	margin: -93px 0 36px 0 !important;
+	max-height: 401px !important;
+}
+.deepan-img{
+  width: 100% !important;
+margin: 0 0 0 -29px !important;
+}
+.about-title-mob{
+  position: absolute;
+  margin: 45px;
+}
+.about-txt-mb-1{
+  margin-top: -25px;
+}
+.about-logo-mob{
+  width: 191px !important;
 }
 }

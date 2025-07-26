@@ -4,7 +4,7 @@ import Camp from '../components/Camp'
 
 export default function page() {
   return (
-  <div>
+  <div className='mt-4'>
     <Program />
 <Camp />
   </div>

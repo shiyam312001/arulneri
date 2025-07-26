@@ -70,7 +70,7 @@ export default function Camp() {
             ) : (
               paginatedPrograms.map(program => (
                 <div 
-                  className="col-md-4 mb-4" 
+                  className="col-md-4 col-6 mb-4" 
                   key={program.id} 
                   onClick={() => handleProgramClick(program.id)}
                   style={{ cursor: 'pointer' }}

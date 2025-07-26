@@ -4,7 +4,7 @@ import Treat from '../components/Treat'
 
 export default function page() {
   return (
-    <div className='testimonial-page'>
+    <div className='testimonial-page mt-5'>
       <Testimonial />
       <Treat />
     </div>
