@@ -21,7 +21,7 @@ export default function Problems() {
                                     priority={true} 
                                   />
 </div>
-<div className='col-md-6 py-5'>
+<div className='col-md-6 py-3'>
        <Image
                                     src="/foot-sim.png"
                                     width={530}

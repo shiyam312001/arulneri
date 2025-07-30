@@ -286,16 +286,17 @@
 .nature-section img {
   text-align: center;
   object-fit: contain;
+  height: 116px !important;
 }
 /* Example: styles.css or globals.css */
-.nature-section {
+/* .nature-section {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .nature-section:hover {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
+} */
 
 
 .image-contain {
@@ -502,7 +503,7 @@
 }
 
 .contactform {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .conform label {
@@ -1013,13 +1014,13 @@
     font-size: 26px !important;
   }
 .welcome-text {
-	font-size: 18px;
+	font-size: 19px;
 	text-align: center;
 }
 
  .welcome-texts {
 	font-family: Bellefair;
-	font-size: 26px;
+	font-size: 28px;
 	color: #444655;
 	line-height: 42px;
 	padding: 0 90px 0 0;
@@ -1071,14 +1072,14 @@
   width: 100%;
 }
 .nav-menus-btn {
-	padding: 0 114px;
-  margin: 0 11px;
-  font-size: 16px;
+	padding: 0px 106px;
+	margin: 0 21px;
+	font-size: 16px;
 }
 .welcome-sub-text {
 	font-family: Avenir;
 	font-weight: 400 !important;
-	font-size: 14px;
+	font-size: 16px;
 	color: #71758E;
 	margin-bottom: 35px;
 	text-align: justify;
@@ -1402,9 +1403,9 @@ margin: 25px 0 10px 0;
   margin-top: -20px !important;
 }
 .welcome-banner-control {
-	padding: 40px;
+	padding: 55px;
 	height: 401px;
-	margin: -99px 0 50px 0;
+	margin: -99px 0 40px 0;
 }
 .welcome-ord-content{
   margin-top: -60px !important;
@@ -1488,5 +1489,23 @@ margin: 0 0 0 -29px !important;
 }
 .tamilword-img{
   margin: -40px 0 40px 0;
+}
+.image-contain {
+  height: 70px;
+}
+.nature-section img {
+  text-align: center;
+  object-fit: contain;
+  height: 70px !important;
+}
+.home-contactform {
+padding: 0;
+}
+.contactform {
+  padding: 0;
+}
+.contact-right-head-cc {
+	padding: 63px 0 2px 0;
+
 }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const treatments = [
-  { title: 'Chronic Pain', description: 'Neck, shoulders, knees, & back, reducing tension and pain.', image: '/nature1.png' },
+  { title: 'Chronic Pain', description: 'Neck, shoulders, knees, back, reducing tension and pain.', image: '/nature1.png' },
   { title: 'Stress and Anxiety', description: 'Calm the mind, reduce anxiety, & enhance emotional well-being.', image: '/nature2.png' },
   { title: 'Sleep Disorders', description: 'Reduce insomnia, improve sleep & help restful night’s sleep.', image: '/nature3.png' },
   { title: 'Headache & Migraines', description: 'Reduce frequency of headpain & migraines over time.', image: '/nature4.png' },
@@ -37,7 +37,7 @@ export default function Treatment() {
                     width={87}
                     height={116}
                     alt='Arulneri Healthcare Banner'
-                    className='img-fluid rounded-circle nature mx-auto'
+                    className='img-fluid nature mx-auto'
                     priority={true}
                   />
                 </div>

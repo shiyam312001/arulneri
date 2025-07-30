@@ -21,18 +21,17 @@ export default function Feet() {
 <br className="d-md-none" />wellness”</p>
                 </div>
             </div>
-             <div className='row justify-content-center mt-4'>
-          <div className='col-md-12 text-center'>
-                 <Image
-                                             src="/cure.png"
-                                             width={460}
-                                             height={500}
-                                             alt="Arulneri Healthcare"
-                                             className="img-fluid rounded cureimg"
-                                             priority={true} 
-                                           />
-          </div>
-        </div>
+           <div className="d-flex align-items-center justify-content-center">
+  <Image
+    src="/cure.png"
+    width={460}
+    height={500}
+    alt="Arulneri Healthcare"
+    className="img-fluid rounded cureimg"
+    priority={true}
+  />
+</div>
+
         </div>
       </div>
     </div>
