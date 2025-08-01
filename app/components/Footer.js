@@ -21,7 +21,7 @@ export default function Footer() {
         {/* Footer Navigation */}
         <ul className="footer-menu d-flex justify-content-center gap-4 py-3 list-unstyled">
           <li className="footer-nav"><Link className="footer-nav" href="/">Home</Link> </li>
-          <li className="footer-nav"> <Link href="/our-programs">Our Programs</Link></li>
+          <li className="footer-nav"> <Link href="/our-program">Our Programs</Link></li>
           <li className="footer-nav"><Link href="/about">About Us </Link></li>
           <li className="footer-nav"><Link href="/testimonials">Testimonials</Link></li>
         </ul>

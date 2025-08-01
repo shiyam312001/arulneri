@@ -26,7 +26,7 @@ export default function Testimonial() {
  const testimonials = [
     [
       {
-        text: "After trying foot reflexology, I experienced immediate relief from stress and chronic pain. The therapist's skillful pressure on my feet brought a sense of deep relaxation and rejuvenation. My sleep quality improved, and I felt more energized throughout the day. Reflexology has become a regular part of my wellness routine. It's not just about physical relief, but also emotional balance and clarity.",
+        text: "After trying foot reflexology, I experienced immediate relief from stress and chronic pain. The therapist's skillful pressure on my feet brought a relaxation and rejuvenation. My sleep quality improved, and I felt more energized throughout the day. Reflexology has become a regular part of my wellness routine. It's not just about physical relief, but also emotional balance and clarity.",
         author: "Mani",
         designation: "Photographer"
       },
