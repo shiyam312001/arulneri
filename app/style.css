@@ -1072,8 +1072,8 @@
   width: 100%;
 }
 .nav-menus-btn {
-	padding: 0px 106px;
-	margin: 0 21px;
+	padding: 0 104px;
+	margin: 0 14px;
 	font-size: 16px;
 }
 .welcome-sub-text {
@@ -1262,9 +1262,10 @@ margin: -80px 0 -110px 0;
 	color: #444655;
 	font-weight: 400;
 	text-align: center;
+      margin-top: 30px;
 }
 .contact-right-subhead {
-	font-size: 20px;
+	font-size: 22px;
 	font-family: Bellefair;
 	color: #6D758F;
 	font-weight: 400;
@@ -1362,7 +1363,7 @@ margin: -80px 0 -110px 0;
 	font-size: 14px;
 	font-family: Avenir;
 	font-weight: 400;
-	padding: 0 35px 0 0;
+	padding: 0 0 0 0;
 	text-align: justify;
 }
 .footer-menu li {
@@ -1404,8 +1405,8 @@ margin: 25px 0 10px 0;
 }
 .welcome-banner-control {
 	padding: 55px;
-	height: 401px;
-	margin: -99px 0 40px 0;
+	height: 325px;
+	margin: -99px 0 55px 0;
 }
 .welcome-ord-content{
   margin-top: -60px !important;
@@ -1487,8 +1488,8 @@ margin: 0 0 0 -29px !important;
 .about-logo-mob{
   width: 191px !important;
 }
-.tamilword-img{
-  margin: -40px 0 40px 0;
+.tamilword-img {
+	margin: -40px 0 40px 40px;
 }
 .image-contain {
   height: 70px;
@@ -1507,5 +1508,8 @@ padding: 0;
 .contact-right-head-cc {
 	padding: 63px 0 2px 0;
 
+}
+.about-welcome-sub-textd {
+	padding: 0 10px;
 }
 }

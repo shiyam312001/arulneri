@@ -13,7 +13,7 @@ export default function Balance() {
               Heal, Balance, and Rejuvenate your  <br className="d-md-none" /> 
 Body Naturally.
             </p>
-            <p className="about-welcome-sub-text">
+            <p className="about-welcome-sub-text about-welcome-sub-textd">
   We awaken your body’s natural healing power through the gentle
   <span className="d-none d-md-inline"><br /></span>
   art of foot reflexology.

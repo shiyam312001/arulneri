@@ -18,11 +18,14 @@ export default function Energy() {
       </div>
       <div className='container d-none d-md-flex justify-content-center align-items-center energy-section-background'>
         <div className="text-center">
-          <p className='energy-text'>Energy Heals.</p>
-          <p className='energy-texts'>Not Pills.</p>
+          <p className='energy-text'>Our Touch,</p>
+          <p className='energy-texts'>Heals your Pain</p>
         </div>
       </div>
 
     </div>
   );
 }
+
+
+
