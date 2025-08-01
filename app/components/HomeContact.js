@@ -57,7 +57,7 @@ export default function HomeContact() {
     <div className='home-contact-form animate-on-load'>
       <div className='container'>
         <div className='row contact-row'>
-          <p className='contact-head-title'>&quot;More than treatment — We offer Love and Care&quot;</p>
+          <p className='contact-head-title'>&quot;More than treatment - <br className="d-md-none" /> We offer Love and Care&quot;</p>
           <div className='col-md-6'>
             <div className="banner-img-ref contact-section-mb">
               <Image
