@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -19,10 +20,10 @@ export default function Footer() {
 
         {/* Footer Navigation */}
         <ul className="footer-menu d-flex justify-content-center gap-4 py-3 list-unstyled">
-          <li className="footer-nav">Home</li>
-          <li className="footer-nav">Our Programs</li>
-          <li className="footer-nav">About Us</li>
-          <li className="footer-nav">Testimonials</li>
+          <li className="footer-nav"><Link className="footer-nav" href="/">Home</Link> </li>
+          <li className="footer-nav"> <Link href="/our-programs">Our Programs</Link></li>
+          <li className="footer-nav"><Link href="/about">About Us </Link></li>
+          <li className="footer-nav"><Link href="/testimonials">Testimonials</Link></li>
         </ul>
 
 <div className="container py-4">
