@@ -9,8 +9,8 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-md-7 text-start order-2 order-md-1 welcome-ord-content">
             <p className="welcome-text">Welcome to Arulneri Healcare</p>
-          <p className="welcome-texts">
-  Heal Your Health, Mind, Body, and Soul with
+          <p className="welcome-texts"><span className='welcome-blue'></span>
+  Heal Your Health, Mind, <span className='welcome-green'></span>Body, and Soul with
   <br className="d-md-none" /> Foot Reflexology.
 </p>
             <p className="welcome-sub-text">

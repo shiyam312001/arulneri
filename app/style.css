@@ -1076,6 +1076,7 @@
 	margin: 0 22px;
 	font-size: 16px;
 }
+
 .welcome-sub-text {
 	font-family: Avenir;
 	font-weight: 400 !important;
@@ -1511,5 +1512,71 @@ padding: 0;
 }
 .about-welcome-sub-textd {
 	padding: 0 10px;
+}
+.welcome-texts .welcome-blue {
+	position: absolute;
+	top: 316px;
+	left: 46px;
+	width: 39px;
+	height: 39px;
+	background: #395CABB2;
+	filter: blur(21px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.welcome-texts .welcome-green {
+	position: absolute;
+	top: 368px;
+	left: 82px;
+	width: 46px;
+	height: 39px;
+	background: green;
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.reflex-green {
+	position: absolute;
+	top: 368px;
+	left: 82px;
+	width: 46px;
+	height: 39px;
+	background: #3995AB;
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.treatment-green {
+	position: absolute;
+	top: 27px;
+	left: 263px;
+	width: 46px;
+	height: 39px;
+	background: green;
+	filter: blur(32px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.treatment-green {
+	position: absolute;
+	top: 27px;
+	left: 263px;
+	width: 46px;
+	height: 39px;
+	background: green;
+	filter: blur(38px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.testimonial-red{
+  	position: absolute;
+	top: 27px;
+	left: 263px;
+	width: 46px;
+	height: 39px;
+	background: green;
+	filter: blur(32px);
+	z-index: -1;
+	border-radius: 50%;
 }
 }
