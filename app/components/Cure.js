@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Cure() {
   return (
-    <div className="cure-section animate-on-load">
+    <div className="cure-section animate-on-load mt-4">
       <div className="container">
 
         {/* Desktop: Show text only */}
