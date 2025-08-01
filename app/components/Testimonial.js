@@ -54,7 +54,7 @@ export default function Testimonial() {
     <div className="py-12 testi-contain">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-1">
-          <h2 className="word-title">Words of Our Loved Ones<span className='testimonial-red'></span></h2>
+          <h2 className="word-title">Words of Our Loved Ones</h2>
           <p className="word-testimonial">Testimonials</p>
         </div>
         <div className="container">
