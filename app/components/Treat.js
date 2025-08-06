@@ -20,7 +20,7 @@ export default function Treat() {
           width={460}
           height={500}
           alt="Arulneri Healthcare Banner"
-          className="img-fluid rounded"
+          className="img-fluid rounded p-4"
           priority={true}
         />
       </div>

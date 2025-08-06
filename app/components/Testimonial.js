@@ -66,7 +66,7 @@ export default function Testimonial() {
               >
                 {testimonials.map((slideTestimonials, slideIndex) => (
                   <div key={slideIndex} className="w-full flex-shrink-0">
-                    <div className="flex flex-wrap -mx-4 p-6">
+                    <div className="flex flex-wrap -mx-4 p-3">
                       {(isMobile
                         ? [slideTestimonials[0]] // show only the first on mobile
                         : slideTestimonials

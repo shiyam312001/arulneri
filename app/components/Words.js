@@ -84,7 +84,7 @@ export default function Testimonial() {
               >
                 {slides.map((slideTestimonials, slideIndex) => (
                   <div key={slideIndex} className="w-full flex-shrink-0">
-                    <div className="flex flex-wrap -mx-4 p-6">
+                    <div className="flex flex-wrap -mx-4 p-3">
                       {slideTestimonials.map((testimonial, index) => (
                         <div
                           key={index}

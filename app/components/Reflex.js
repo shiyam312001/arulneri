@@ -48,8 +48,7 @@ export default function Reflex() {
               Foot Reflexology treats the root cause, not just the symptoms, helping you achieve lasting health and wellness safely and naturally.
             </p>
             <p className='ref-para ref-para2'>
-              Other Medicines are designed to quickly target symptoms, but they often come with unwanted side effects like fatigue, digestive issues,
-              long-term dependency, and cause side effect in kidney and other important organs in body, but Foot Reflexology works naturally by stimulating your body&apos;s own healing systems without introducing chemicals or artificial substances.
+             Foot Reflexology gently supports your body&apos;s own healing intelligence. By stimulating specific reflex points on the feet, it promotes better circulation, relieves tension, and encourages the smooth functioning of vital organs. Reflexology helps activate your natural ability to restore balance and harmony leaving you feeling relaxed, energized, and healthier from within.
             </p>
             <p className='ref-para ref-para3'>
               It enhances circulation, reduces stress, balances energy flow, and strengthens your immune system — all without the risk of side effects.
@@ -61,3 +60,4 @@ export default function Reflex() {
     </div>
   )
 }
+
