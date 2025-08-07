@@ -1170,6 +1170,20 @@
 	font-weight: 400;
 	text-align: center;
 }
+.program-id-title {
+	font-size: 26px;
+	font-family: Bellefair;
+	color: #444655;
+	font-weight: 400;
+	text-align: center;
+}
+.program-id-location {
+	font-size: 19px;
+	font-family: Bellefair;
+	color: #395CAB;
+	font-weight: 400;
+	text-align: center;
+}
 .program-sub {
 	font-size: 19px;
 	font-family: Bellefair;
@@ -1576,6 +1590,65 @@ padding: 0;
 	height: 39px;
 	background: green;
 	filter: blur(32px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.wellnessimg{
+  margin-top: -139px;
+  background: transparent;
+}
+ .welcome-orange {
+	position: absolute;
+	top: 368px;
+	left: 82px;
+	width: 46px;
+	height: 39px;
+	background: orange;
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+ .welcome-orange {
+	position: absolute;
+	top: 368px;
+	left: 82px;
+	width: 46px;
+	height: 39px;
+	background: orange;
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.welcome-red {
+	position: absolute;
+	top: 148px;
+	left: 279px;
+	width: 46px;
+	height: 39px;
+	background: red;
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.program-blue {
+	position: absolute;
+	top: 10px;
+	left: 306px;
+	width: 46px;
+	height: 39px;
+	background: rgb(9, 90, 78);
+	filter: blur(31px);
+	z-index: -1;
+	border-radius: 50%;
+}
+.program-id-blue {
+	position: absolute;
+	top: 151px;
+	left: 306px;
+	width: 46px;
+	height: 39px;
+	background: rgb(9, 90, 78);
+	filter: blur(31px);
 	z-index: -1;
 	border-radius: 50%;
 }

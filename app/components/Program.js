@@ -40,7 +40,7 @@ export default function Program() {
         <div className='row'>
           <div className='col-md-12'>
             <div className='program-section'>
-              <p className='program-title'>Our Recent Camp and Program</p>
+              <p className='program-title'>Our Recent Camp and Program<span className='program-blue'></span></p>
               <p className='program-sub'>Join us for a Free Reflexology Session</p>
             </div>
             <div className='row our-program'>

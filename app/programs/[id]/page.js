@@ -51,7 +51,7 @@ export default function ProgramDetails() {
     <div className="container py-5">
       <div className="row">
         <div className="col-12 mb-4">
-          <h1 className="mb-3 program-id-title">{program.title}</h1>
+          <h1 className="mb-3 program-id-title">{program.title}<span className='program-id-blue'></span></h1>
           <p className="mb-4 program-id-location">{program.location}</p>
         </div>
         

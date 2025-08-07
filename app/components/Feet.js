@@ -11,9 +11,18 @@ export default function Feet() {
                                                 width={460}
                                                 height={500}
                                                 alt="Arulneri Healthcare Banner"
-                                                className="img-fluid rounded wellnessimg"
+                                                className="img-fluid rounded wellnessimg d-none d-md-block"
                                                 priority={true} 
-/></div>
+/>
+<Image
+                                                src="/leg-bg-mob.png"
+                                                width={460}
+                                                height={500}
+                                                alt="Arulneri Healthcare Banner"
+                                                className="img-fluid rounded wellnessimg d-block d-md-none"
+                                                priority={true} 
+/>
+</div>
             </div>
             <div className='col-md-6'>
                 <div className='foot-text'>
