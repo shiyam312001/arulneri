@@ -684,11 +684,11 @@
 
 .success-form-bg{
   background: #fff !important;
-  margin-top: 0 !important;
+  margin-top: 250px !important;
 }
 .success-form-bg-contact{
    background: #fff !important;
-  margin-top: 250px;
+  margin-top: 0 !important;
 }
 .success-title{
 font-family: Bellefair;
