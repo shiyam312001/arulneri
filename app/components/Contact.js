@@ -188,7 +188,7 @@ export default function Contact() {
       </div>
 
        {submitted && (
-        <div className="fixed inset-0 success-form-bg bg-white bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center z-50 p-4">
           <div className="bg-gradient-to-br success-form-bg-contact from-gray-800 to-gray-900 rounded-2xl p-8 text-center max-w-md w-full shadow-2xl transform animate-slideUp">
             <div className="mb-6">
               <div className="w-20 h-20 bg-tick rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
