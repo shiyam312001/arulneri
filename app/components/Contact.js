@@ -96,15 +96,11 @@ export default function Contact() {
                           type="tel"
                           name="mobile"
                           value={formData.mobile}
-                                       onChange={(e) => {
-    const value = e.target.value.replace(/\D/g, ""); // allow only numbers
-    if (value.length <= 10) {
-      handleInputChange({ target: { name: "mobile", value } });
-    }
-  }} maxLength={10}
+                          onChange={handleInputChange}
                           placeholder="Enter your contact number"
                           className="flex-1 bg-contact-field px-4 py-3 mb-contact border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                           required
+                           maxLength={10}
                         />
                       </div>
                     </div>
