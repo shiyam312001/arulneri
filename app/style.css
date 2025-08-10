@@ -1699,7 +1699,7 @@ padding: 0;
 
 }
 .footer-logo{
-  margin-top: -30px;
-  padding: 0 35px;
+  margin-top: -30px !important;
+  padding: 0 35px !important;
 }
 }
