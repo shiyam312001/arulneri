@@ -41,7 +41,7 @@ export async function POST(request) {
   try {
     const { fullName, district, mobile, message } = await request.json();
 
-    if (!fullName || !district || !mobile || !message) {
+    if (!fullName || !district || !mobile) {
       return NextResponse.json(
         { error: 'All fields are required' },
         { status: 400 }

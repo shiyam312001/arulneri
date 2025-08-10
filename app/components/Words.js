@@ -1,9 +1,13 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function Testimonial() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const touchStartX = useRef(null);
+  const touchEndX = useRef(null);
+  const touchStartY = useRef(null);
+  const touchEndY = useRef(null);
 
   const allTestimonials = [
     {
@@ -53,20 +57,62 @@ export default function Testimonial() {
         }
         return newSlides;
       });
-      setCurrentSlide(0); // reset to first slide on screen resize
+      setCurrentSlide(0); // reset to first slide
     };
 
-    handleResize(); // initial check
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Auto-slide
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % totalSlides);
     }, 5000);
     return () => clearInterval(interval);
   }, [totalSlides]);
+
+  // Improved swipe gesture handling
+  const onTouchStart = (e) => {
+    touchStartX.current = e.targetTouches[0].clientX;
+    touchStartY.current = e.targetTouches[0].clientY;
+    touchEndX.current = null;
+    touchEndY.current = null;
+  };
+
+  const onTouchMove = (e) => {
+    touchEndX.current = e.targetTouches[0].clientX;
+    touchEndY.current = e.targetTouches[0].clientY;
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStartX.current || !touchEndX.current || !touchStartY.current || !touchEndY.current) {
+      return;
+    }
+
+    const deltaX = touchStartX.current - touchEndX.current;
+    const deltaY = touchStartY.current - touchEndY.current;
+    const absDeltaX = Math.abs(deltaX);
+    const absDeltaY = Math.abs(deltaY);
+
+    // Only register horizontal swipes (ignore vertical scrolling)
+    if (absDeltaX > absDeltaY && absDeltaX > 50) {
+      if (deltaX > 0) {
+        // Swipe left - go to next slide
+        setCurrentSlide((prev) => (prev + 1) % totalSlides);
+      } else {
+        // Swipe right - go to previous slide
+        setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
+      }
+    }
+
+    // Reset touch positions
+    touchStartX.current = null;
+    touchEndX.current = null;
+    touchStartY.current = null;
+    touchEndY.current = null;
+  };
 
   return (
     <div className="py-12 testi-contain">
@@ -77,7 +123,13 @@ export default function Testimonial() {
         </div>
         <div className="container">
           <div className="relative col-md-12">
-            <div className="overflow-hidden">
+            <div
+              className="overflow-hidden"
+              onTouchStart={isMobile ? onTouchStart : undefined}
+              onTouchMove={isMobile ? onTouchMove : undefined}
+              onTouchEnd={isMobile ? onTouchEnd : undefined}
+              style={{ touchAction: 'pan-y' }} // Allow vertical scrolling but prevent horizontal scrolling interference
+            >
               <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -86,10 +138,7 @@ export default function Testimonial() {
                   <div key={slideIndex} className="w-full flex-shrink-0">
                     <div className="flex flex-wrap -mx-4 p-3">
                       {slideTestimonials.map((testimonial, index) => (
-                        <div
-                          key={index}
-                          className="w-full md:w-1/2 mb-6"
-                        >
+                        <div key={index} className="w-full md:w-1/2 mb-6">
                           <div className="testimonial-box">
                             <div className="flex flex-col h-full">
                               <div className="flex-1">

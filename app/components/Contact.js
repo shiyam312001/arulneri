@@ -113,7 +113,6 @@ export default function Contact() {
                         placeholder="Enter your message here"
                         rows="4"
                         className="w-full bg-contact-field px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
-                        required
                       ></textarea>
                     </div>
 
@@ -132,7 +131,7 @@ export default function Contact() {
                           <p className='contact-right-head-cc'>Need Assistance?</p>
           <p className='contact-right-subhead-cc'>You&apos;ve taken the first step, Let us walk with you.</p>
           <p className='contact-right-head'>Contact Us</p>
-          <p className='contact-right-subhead'>Let&apos;s walk the path to healing together</p>
+          <p className='contact-right-subhead'>Reach out, We&apos;re here to listen.</p>
         
           <div className='col-md-12 d-flex align-items-start mb-3 contact-infs'>
             <div className='me-3'>
@@ -187,26 +186,24 @@ export default function Contact() {
         </div>
       </div>
 
-      {submitted && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div
-            className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-center max-w-md w-full shadow-2xl transform animate-slideUp"
-          >
+       {submitted && (
+        <div className="fixed inset-0 success-form-bg bg-white bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-gradient-to-br success-form-bg from-gray-800 to-gray-900 rounded-2xl p-8 text-center max-w-md w-full shadow-2xl transform animate-slideUp">
             <div className="mb-6">
               <div className="w-20 h-20 bg-tick rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-10 h-10 tick-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Message Received</h3>
-              <p className="text-gray-300 text-sm leading-relaxed">
+              <h3 className="text-2xl font-bold success-title mb-2">Message Received</h3>
+              <p className="success-subtitle text-sm leading-relaxed">
                 Thank you. You&apos;ve made a soulful step toward balance and relief.
               </p>
             </div>
 
             <button
               onClick={handleDone}
-              className="px-8 py-3 contact-suc-btn border-2  border-white hover:bg-white hover:text-gray-900 rounded-lg font-semibold transition-all duration-200"
+              className="px-8 py-3 contact-suc-btn hover:bg-white hover:text-gray-900 rounded-lg font-semibold transition-all duration-200"
             >
               Done
             </button>

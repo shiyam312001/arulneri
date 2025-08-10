@@ -47,7 +47,7 @@ export default function Footer() {
     </div>
 
     {/* Center Aligned */}
-    <div className="col-md-4 d-flex justify-content-center align-items-start mb-3 text-start">
+    <div className="col-md-4 d-flex mb-3 text-start">
       <div className="me-3">
         <Image
           src="/mail.png"
@@ -65,7 +65,7 @@ export default function Footer() {
     </div>
 
     {/* Right Aligned */}
-    <div className="col-md-4 d-flex justify-content-end align-items-start mb-3 text-start">
+    <div className="col-md-4 d-flex mb-3 text-start">
       <div className="me-3">
         <Image
           src="/mob.png"
