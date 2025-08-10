@@ -7,18 +7,6 @@ import { verifyJWT } from '@/lib/jwt'; // or wherever you handle JWT
 export async function GET(request) {
   let connection;
   try {
-    const cookieStore = cookies();
-    const token = cookieStore.get('admin_token')?.value;
-
-    if (!token) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
-    const decoded = verifyJWT(token);
-    if (!decoded) {
-      return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
-    }
-
     connection = await pool.getConnection();
     const [contacts] = await connection.query(
       'SELECT * FROM contacts ORDER BY created_at DESC'
