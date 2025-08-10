@@ -684,6 +684,10 @@
 
 .success-form-bg{
   background: #fff !important;
+  margin-top: 0 !important;
+}
+.success-form-bg-contact{
+   background: #fff !important;
   margin-top: 250px;
 }
 .success-title{

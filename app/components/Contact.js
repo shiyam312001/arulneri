@@ -92,15 +92,20 @@ export default function Contact() {
                         <select className="px-3 bg-contact-field py-3 border border-gray-300 rounded-l-lg bg-gray-50 text-gray-600">
                           <option>+91</option>
                         </select>
-                        <input
-                          type="tel"
-                          name="mobile"
-                          value={formData.mobile}
-                          onChange={handleInputChange}
-                          placeholder="Enter your contact number"
-                          className="flex-1 bg-contact-field px-4 py-3 mb-contact border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
-                          required
-                        />
+                                         <input type="tel"
+  name="mobile"
+  value={formData.mobile}
+  onChange={(e) => {
+    const value = e.target.value.replace(/\D/g, ""); // allow only numbers
+    if (value.length <= 10) {
+      handleInputChange({ target: { name: "mobile", value } });
+    }
+  }}
+  placeholder="Enter your contact number"
+  required
+  maxLength={10}
+  className="flex-1 home-bg-contact-field px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 contact-mb focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+/>
                       </div>
                     </div>
 
@@ -188,7 +193,7 @@ export default function Contact() {
 
        {submitted && (
         <div className="fixed inset-0 success-form-bg bg-white bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-gradient-to-br success-form-bg from-gray-800 to-gray-900 rounded-2xl p-8 text-center max-w-md w-full shadow-2xl transform animate-slideUp">
+          <div className="bg-gradient-to-br success-form-bg-contact from-gray-800 to-gray-900 rounded-2xl p-8 text-center max-w-md w-full shadow-2xl transform animate-slideUp">
             <div className="mb-6">
               <div className="w-20 h-20 bg-tick rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <svg className="w-10 h-10 tick-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
