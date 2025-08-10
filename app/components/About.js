@@ -90,7 +90,7 @@ export default function About() {
     priority={true}
   />
             <p className='about-text-sec'>
-              Arulneri Healthcare is more than just a wellness center — it is a sacred space where ancient wisdom meets
+              Arulneri Healcare is more than just a wellness center — it is a sacred space where ancient wisdom meets
               modern healing. Rooted in the timeless principles of Siddha and holistic traditions, we believe that true
               health begins from within — in the spirit, the mind, and the body.
             </p>

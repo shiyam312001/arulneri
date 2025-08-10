@@ -1107,7 +1107,7 @@ color: #71758E !important;
   width: 100%;
 }
 .nav-menus-btn {
-	padding: 0 115px;
+	padding: 0 120px;
 	margin: 0 11px;
 	font-size: 16px;
 }
@@ -1319,6 +1319,9 @@ margin: -80px 0 -110px 0;
 	font-weight: 400;
 	margin-top: -18px;
 	text-align: center;
+}
+.testimonial-button{
+  border-radius: 8px !important;
 }
 .contact-infs{
   padding: 0 30px;
@@ -1684,5 +1687,19 @@ padding: 0;
 	filter: blur(31px);
 	z-index: -1;
 	border-radius: 50%;
+}
+.testimonial-button{
+  border-radius: 8px !important;
+}
+.testimonial-button-color{
+  background: #395CAB;
+    border-radius: 8px !important;
+    width: 4px !important;
+    height: 4px !important;
+
+}
+.footer-logo{
+  margin-top: -30px;
+  padding: 0 35px;
 }
 }

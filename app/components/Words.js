@@ -170,10 +170,10 @@ export default function Testimonial() {
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`w-1 mx-1 h-1 rounded-full transition-all duration-200 ${
+                  className={`w-1 mx-1 h-1 testimonial-button rounded-full transition-all duration-200 ${
                     currentSlide === index
-                      ? "bg-indigo-600 scale-110"
-                      : "bg-gray-300 hover:bg-indigo-400"
+                      ? "bg-indigo-600 rounded-full testimonial-button-color scale-110"
+                      : "bg-gray-300 testimonial-button hover:bg-indigo-400"
                   }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />

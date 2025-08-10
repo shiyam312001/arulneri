@@ -13,6 +13,7 @@ export default function Footer() {
             src="/footer-logo.png"
             width={513}
             height={170}
+            className='footer-logo'
             alt="Arulneri Healthcare footer-logo"
             priority
           />
