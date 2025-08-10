@@ -1,9 +1,13 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function Testimonial() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const touchStartX = useRef(null);
+  const touchEndX = useRef(null);
+  const touchStartY = useRef(null);
+  const touchEndY = useRef(null);
   const totalSlides = 2;
 
   useEffect(() => {
@@ -23,6 +27,47 @@ export default function Testimonial() {
     return () => clearInterval(interval);
   }, [totalSlides]);
 
+  // Improved swipe gesture handling
+  const onTouchStart = (e) => {
+    touchStartX.current = e.targetTouches[0].clientX;
+    touchStartY.current = e.targetTouches[0].clientY;
+    touchEndX.current = null;
+    touchEndY.current = null;
+  };
+
+  const onTouchMove = (e) => {
+    touchEndX.current = e.targetTouches[0].clientX;
+    touchEndY.current = e.targetTouches[0].clientY;
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStartX.current || !touchEndX.current || !touchStartY.current || !touchEndY.current) {
+      return;
+    }
+
+    const deltaX = touchStartX.current - touchEndX.current;
+    const deltaY = touchStartY.current - touchEndY.current;
+    const absDeltaX = Math.abs(deltaX);
+    const absDeltaY = Math.abs(deltaY);
+
+    // Only register horizontal swipes (ignore vertical scrolling)
+    if (absDeltaX > absDeltaY && absDeltaX > 50) {
+      if (deltaX > 0) {
+        // Swipe left - go to next slide
+        setCurrentSlide((prev) => (prev + 1) % totalSlides);
+      } else {
+        // Swipe right - go to previous slide
+        setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
+      }
+    }
+
+    // Reset touch positions
+    touchStartX.current = null;
+    touchEndX.current = null;
+    touchStartY.current = null;
+    touchEndY.current = null;
+  };
+
  const testimonials = [
     [
       {
@@ -41,11 +86,6 @@ export default function Testimonial() {
         text: "Foot reflexology has been a game changer for me! After just a few sessions, my stress levels dropped, and my body felt more relaxed. The targeted pressure on my feet helped alleviate my chronic pain and improved my energy. I'm sleeping better and feeling more balanced overall. It's an incredibly soothing and effective treatment. I highly recommend it to their well-being!",
         author: "Ravi",
         designation: "Entrepreneur"
-      },
-      {
-        text: "It's emotional and physical healing. Reflexology eased my migraines and boosted clarity.",
-        author: "Anjali",
-        designation: "Designer"
       }
     ]
   ];
@@ -59,7 +99,13 @@ export default function Testimonial() {
         </div>
         <div className="container">
           <div className="relative col-md-12">
-            <div className="overflow-hidden">
+            <div 
+              className="overflow-hidden"
+              onTouchStart={isMobile ? onTouchStart : undefined}
+              onTouchMove={isMobile ? onTouchMove : undefined}
+              onTouchEnd={isMobile ? onTouchEnd : undefined}
+              style={{ touchAction: 'pan-y' }}
+            >
               <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
