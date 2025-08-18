@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Footer Copyright and Social */}
         <div className="footer-copyrigh-content">
           <p className="footer-copy-left footer-left mb-3">
-            Copyright © 2025 Arulneri Healthcare
+            Copyright © 2025 Arulneri Healcare
           </p>
 
           {/* Social Media Icons */}

@@ -158,7 +158,7 @@ export default function Navbar() {
               <li className='px-4 pt-2'>
                 <Link 
                   href='/contact' 
-                  className='block text-decoration-none w-full text-center nav-menus px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 font-medium'
+                  className='block text-decoration-none w-full text-center nav-menu-appoint nav-menus px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 font-medium'
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Appointment
