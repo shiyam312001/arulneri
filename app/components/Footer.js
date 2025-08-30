@@ -11,8 +11,8 @@ export default function Footer() {
         <div className="footer-title fw-bold mb-3 d-flex justify-content-center">
           <Image
             src="/footer-logo.png"
-            width={267}
-            height={70}
+            width={513}
+            height={175}
             className='footer-logo'
             alt="Arulneri Healthcare footer-logo"
             priority

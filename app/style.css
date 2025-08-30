@@ -10,8 +10,11 @@
 }
 .appointment {
   border-radius: 20px 20px 20px 0;
+  background: #395CAB !important;
 }
-
+.testimonial-box{
+  margin-right: 50px !important;
+}
 .welcome-text {
   color: #395CAB;
   font-size: 29px;
@@ -35,7 +38,7 @@
   font-family: Avenir;
   font-weight: 400 !important;
   font-size: 18px;
-  color: #535568;
+  color: #71758E;
   margin-bottom: 35px;
 }
 
@@ -159,10 +162,6 @@
   animation: fadeSlideUp 0.8s ease forwards;
 }
 
-.energy-section {
-  padding: 100px 0 60px 0;
-}
-
 .energy-text {
   color: #395CAB;
   font-size: 73px;
@@ -185,12 +184,26 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  float: left;
-  margin-left: -15px;
+  height: 773px;
+  margin-left: -23px;
   margin-bottom: 80px;
 }
-
+.problem-img{
+  margin-top: 25px !important;
+}
 .banner-img-ref {
+  background-image: url('/background-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 460 / 502;
+  display: flex;
+    animation: wobble 4s ease-in-out infinite;
+  justify-content: center;
+  align-items: center;
+}
+.ref-img-ref {
   background-image: url('/background-img.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -204,8 +217,7 @@
 }
 
 .refimg {
-  width: 190% !important;
-  margin: 170px -33px 0 0;
+  width: 100% !important;
 }
 
 .ref-head {
@@ -320,7 +332,6 @@
 
 .cureimg {
   width: 100%;
-  margin-bottom: 80px;
 }
 
 .peace {
@@ -328,11 +339,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  float: left;
-  margin-left: -15px;
+  height: 1689px;
+  margin-left: -20px;
+  margin-top: -40px;
 }
 
 .peace-img {
+  background-image: url('/background-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  float: left;
+}
+.treatment-green{
+  	width: 46px;
+	height: 39px;
+	background: #5CAB39;
+	filter: blur(31px);
+}
+.refleximg {
   background-image: url('/background-img.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -678,7 +703,7 @@
   font-size: 18px;
   font-family: Avenir;
   font-weight: 400;
-  color: #535568;
+  color: #71758E;
   text-align: justify;
 }
 
@@ -894,10 +919,6 @@ color: #71758E !important;
   font-family: "Arsenal SC";
 }
 
-.testi-contain {
-  margin-top: 60px;
-}
-
 .home-bg-contact-field {
   background-color: #fff;
 }
@@ -939,7 +960,6 @@ color: #71758E !important;
 
 .footer-title .footer-logo {
   text-align: center;
-  width: 100%;
 }
 
 .about-welcome-text {
@@ -982,9 +1002,6 @@ color: #71758E !important;
   padding: 30px 0 152px 0;
 }
 
-.py-12 {
-  margin: 70px 0;
-}
 .testimonial-page{
   margin-top: -77px;
 }
@@ -994,7 +1011,7 @@ color: #71758E !important;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0;
-  margin-top: 90px !important;
+  margin-top: 69px !important;
   background-position: center;
 }
 

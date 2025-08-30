@@ -59,7 +59,7 @@ export default function HomeContact() {
         <div className='row contact-row'>
           <p className='contact-head-title'>&quot;More than treatment - <br className="d-md-none" /> We offer Love and Care&quot;</p>
           <div className='col-md-6'>
-            <div className="banner-img-ref contact-section-mb">
+           
               <Image
                 src="/contact-img.png"
                 width={460}
@@ -76,7 +76,7 @@ export default function HomeContact() {
                 className="img-fluid rounded d-block d-md-none"
                 priority={true}
               />
-            </div>
+          
           </div>
 
           <div className='col-md-6 home-contact-row'>

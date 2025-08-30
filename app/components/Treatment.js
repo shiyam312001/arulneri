@@ -23,7 +23,7 @@ export default function Treatment() {
       <div className='container'>
         <div className='row justify-content-center mb-6'>
           <div className='col-md-12 text-center'>
-            <h2 className='text-2xl font-bold treatment-head'>Treatment Will Solve <span className='treatment-green'></span></h2>
+            <h2 className='text-2xl font-bold treatment-head'>Treatment Will Solve <span className='treatment-green'>&nbsp;</span></h2>
             <p className='text-lg treatment-subhead'>Heal Naturally, Live Healthy</p>
           </div>
         </div>
