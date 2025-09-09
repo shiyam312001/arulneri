@@ -1707,7 +1707,8 @@ padding: 0;
 	border-radius: 50%;
 }
 .wellnessimg{
-  margin-top: -139px;
+  margin-top: -137px;
+  height: auto !important;
 }
  .welcome-orange {
 	position: absolute;
