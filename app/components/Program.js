@@ -56,7 +56,7 @@ export default function Program() {
                 programs.map((program) => (
                   <div 
                     key={program.id} 
-                    className='col-6 col-md-3 recent-pg'
+                    className='col-6 col-md-3 recents-pg'
                     onClick={() => handleProgramClick(program.id)}
                     style={{ cursor: 'pointer' }}
                   >
@@ -65,7 +65,7 @@ export default function Program() {
                       width={460}
                       height={500}
                       alt={program.title || "Program Image"}
-                      className="img-fluid rounded peaceimg prog-img"
+                      className="img-fluid rounded prog-img"
                       priority={true}
                     />
                   </div>

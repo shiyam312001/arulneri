@@ -60,7 +60,8 @@ export default function HomeContact() {
           <p className='contact-head-title'>&quot;More than treatment - <br className="d-md-none" /> We offer Love and Care&quot;</p>
           <div className='col-md-6'>
            
-              <Image
+          <div className='image-contact-size'>
+            <Image
                 src="/contact-img.png"
                 width={460}
                 height={500}
@@ -76,6 +77,7 @@ export default function HomeContact() {
                 className="img-fluid rounded d-block d-md-none"
                 priority={true}
               />
+          </div>
           
           </div>
 
@@ -98,7 +100,7 @@ export default function HomeContact() {
                         onChange={handleInputChange}
                         placeholder="Enter your full name"
                         required
-                        className="w-full home-bg-contact-field px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+                        className="w-full home-bg-contact-field px-4  border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                       />
                     </div>
 
@@ -111,14 +113,14 @@ export default function HomeContact() {
                         onChange={handleInputChange}
                         placeholder="Enter your current district"
                         required
-                        className="w-full home-bg-contact-field px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+                        className="w-full home-bg-contact-field px-4 py-3  border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                       />
                     </div>
 
                     <div>
                       <label className="block text-gray-700 font-medium mb-1">Phone <b>*</b></label>
                       <div className="flex">
-                        <select className="px-3 home-bg-contact-field py-3 border border-gray-300 rounded-l-lg bg-gray-50 text-gray-600">
+                        <select className="home-bg-contact-field-select home-bg-contact-field  border-gray-300 rounded-l-lg bg-gray-50 text-gray-600">
                           <option>+91</option>
                         </select>
                         <input
@@ -129,7 +131,7 @@ export default function HomeContact() {
                           placeholder="Enter your contact number"
                           required
                            maxLength={10}
-                          className="flex-1 home-bg-contact-field px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 contact-mb focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+                          className="flex-1 home-bg-contact-field px-4 py-3 border-l-0 border-gray-300 rounded-r-lg focus:ring-2 contact-mb focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                         />
                       </div>
                     </div>
@@ -142,7 +144,7 @@ export default function HomeContact() {
                         onChange={handleInputChange}
                         placeholder="Enter your message here"
                         rows="4"
-                        className="w-full home-bg-contact-field px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
+                        className="w-full home-bg-contact-field  home-bg-contact-field-text px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
                       ></textarea>
                     </div>
 

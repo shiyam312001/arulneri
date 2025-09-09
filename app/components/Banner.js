@@ -26,7 +26,7 @@ export default function Banner() {
           </div>
 
           <div className="col-md-5 order-1 order-md-2 text-center">
-            <div className="banner-img welcome-banner-control">
+            <div className="welcome-banner-control">
               <Image
                 src="/banner-img.png"
                 width={460}

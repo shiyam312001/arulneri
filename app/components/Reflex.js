@@ -21,7 +21,7 @@ export default function Reflex() {
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded refimg d-none d-md-block"
+                className="img-fluid animation-ref rounded refimg d-none d-md-block"
                 priority={true}
               />
                 <Image

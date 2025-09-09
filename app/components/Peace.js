@@ -16,14 +16,14 @@ export default function Peace() {
 
           {/* Image */}
           <div className='col-12 col-md-5 refs-row order-2 order-md-1'>
-            <div className="banner-img-ref">
+            <div className='peace-bg-img'>
               {/* Desktop Image */}
               <Image
                 src="/peace-imgs.png"
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded peaceimg d-none d-md-block"
+                className="img-fluid rounded d-none d-md-block"
                 priority={true}
               />
               {/* Mobile Image */}

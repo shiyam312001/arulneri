@@ -89,7 +89,7 @@ export default function Contact() {
                     <div>
                       <label className="block text-gray-700 font-medium mb-1">Phone <b>*</b></label>
                       <div className="flex">
-                        <select className="px-3 bg-contact-field py-3 border border-gray-300 rounded-l-lg bg-gray-50 text-gray-600">
+                        <select className="bg-contact-field-select bg-contact-field border border-gray-300 rounded-l-lg bg-gray-50 text-gray-600">
                           <option>+91</option>
                         </select>
                         <input
@@ -113,7 +113,7 @@ export default function Contact() {
                         onChange={handleInputChange}
                         placeholder="Enter your message here"
                         rows="4"
-                        className="w-full bg-contact-field px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
+                        className="w-full bg-contact-field bg-contact-field-text px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
                       ></textarea>
                     </div>
 

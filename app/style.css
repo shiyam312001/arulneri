@@ -122,10 +122,8 @@
 
 
 .carousel-img {
-  margin-top: 205px;
+  margin-top: -80px;
   padding: 15px;
-  margin-right: 40px;
-  
 }
 
 .energy-section-background {
@@ -202,6 +200,9 @@
     animation: wobble 4s ease-in-out infinite;
   justify-content: center;
   align-items: center;
+}
+.animation-ref{
+      animation: wobble 4s ease-in-out infinite;
 }
 .ref-img-ref {
   background-image: url('/background-img.png');
@@ -339,6 +340,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+    position: relative;
   height: 1689px;
   margin-left: -20px;
   margin-top: -40px;
@@ -367,7 +369,9 @@
 
 .peaceimg {
   width: 100% !important;
-  margin: 177px -35px 0 0;
+  height: 658px !important;
+	height: 653px !important;
+	margin-left: -60px !important;
 }
 
 .peace-program {
@@ -469,7 +473,11 @@
   font-weight: 400;
   text-align: center;
 }
-
+.reflex-mb-banner {
+	width: 583px !important;
+	margin-left: -140px;
+	margin-top: -10px;
+}
 .contact-row {
   margin: 40px 0;
 }
@@ -640,6 +648,11 @@
   padding-left: 0;
 }
 
+.wellnessimg{
+  position: revert-layer;
+  margin-top: -121px;
+  height: 730px !important;
+}
 .pagination li a {
   display: block;
   padding: 8px 12px;
@@ -818,8 +831,26 @@ color: #71758E !important;
   background-color: #EBEFF7;
   font-family: Avenir;
   font-size: 14px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #FFF !important;
 }
-
+.bg-contact-field::placeholder {
+  font-size: 12px !important;
+  font-family: "Avenir";
+}
+.bg-contact-field-text{
+  height: 73px;
+}
+.bg-contact-field-select {
+	padding: 2px 7px 1px 10px;
+	font-size: 12px !important;
+	font-weight: 600;
+	font-family: Avenir;
+	margin-right: 10px;
+  border-radius: 6px !important;
+	border: 8px solid #FFF !important;
+}
 .contact-right {
   padding: 0 0 0 130px !important;
 }
@@ -840,6 +871,12 @@ color: #71758E !important;
   margin-top: -18px;
   padding: 0 0 30px 0;
 
+}
+.contactimg{
+	color: transparent;
+	height: 569px !important;
+	width: 100%;
+    margin-left: -125px;
 }
 
 .contact-suc-btn {
@@ -921,8 +958,27 @@ color: #71758E !important;
 
 .home-bg-contact-field {
   background-color: #fff;
+  height: 35px;
+  border-radius: 6px !important;
+  border: 1px solid #fff !important;
+}
+.home-bg-contact-field::placeholder {
+  font-size: 12px !important;
+  font-family: "Avenir";
+}
+.home-bg-contact-field-text{
+  height: 73px;
 }
 
+.home-bg-contact-field-select {
+	padding: 2px 7px 1px 10px;
+	font-size: 12px !important;
+	font-weight: 600;
+	font-family: Avenir;
+	margin-right: 10px;
+  border-radius: 6px !important;
+	border: 8px solid #FFF !important;
+}
 .home-contactform {
   background-color: #EBEFF7;
   margin-top: 65px;
@@ -937,13 +993,13 @@ color: #71758E !important;
 
 .text-contact {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   font-family: Avenir;
   color: #64748B;
 }
 
 .home-contact-form {
-  margin-top: 65px;
+  margin-top: 25px;
 }
 
 .footer-copy-right {
@@ -1086,14 +1142,14 @@ color: #71758E !important;
     background-repeat: no-repeat;
     margin-bottom: 0;
     width: 100%;
-    height: 898px;
+    height: 862px;
     margin-left: -1px;
   }
 .reflex-banner{
   background-image: none;
 }
 .ref-mob-img{
-  margin-top: -60px;
+ margin: -31px 0 29px 0;
 }
 .ref-row {
 	margin: 25px 0 !important;
@@ -1475,16 +1531,17 @@ margin: 25px 0 10px 0;
   margin-top: -20px !important;
 }
 .welcome-banner-control {
-	padding: 55px;
+	padding: 0 55px;
 	height: 325px;
-	margin: -99px 0 55px 0;
+	margin: -89px 0 54px 0;
 }
 .welcome-ord-content{
   margin-top: -60px !important;
 }
 .reflex-mb-banner{
   padding: 20px;
-  margin: -17px 0 0 -19px;
+  margin: -17px 0 0 -19px !important;
+  width: 100% !important;
 }
 .nature-section{
   margin-top: -15px !important;
@@ -1514,8 +1571,8 @@ margin: 25px 0 10px 0;
 	text-align: center;
 	margin-top: -64px;
 }
-.py-12 {
-  margin: -65px 0 0 0;
+.feet{
+  margin-bottom: 40px !important;
 }
 .footer {
   background-image: url('/footer-bg-mb.png');
@@ -1651,7 +1708,6 @@ padding: 0;
 }
 .wellnessimg{
   margin-top: -139px;
-  background: transparent;
 }
  .welcome-orange {
 	position: absolute;
@@ -1724,6 +1780,9 @@ padding: 0;
 }
 .nav-menu-appoint{
   background: #395CAB !important;
+}
+.testimonial-box{
+  margin-right: 0 !important;
 }
 }
 
