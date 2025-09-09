@@ -23,11 +23,9 @@ Body Naturally.
   <span className="d-none d-md-inline"><br /></span>
   well-being.
 </p>
-
           </div>
-
           <div className="col-md-5 balance-order-row2 text-center order-1 order-md-2">
-            <div className="banner-img balance-about-mob">
+            <div className="balance-img balance-about-mob">
               <Image
                 src="/about-banner.png"
                 width={460}

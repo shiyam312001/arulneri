@@ -19,11 +19,11 @@ export default function Peace() {
             <div className='peace-bg-img'>
               {/* Desktop Image */}
               <Image
-                src="/peace-imgs.png"
+                src="/peace-des-img.png"
                 width={460}
                 height={500}
                 alt="Arulneri Healthcare Banner"
-                className="img-fluid rounded d-none d-md-block"
+                className="img-fluid path-img-main rounded d-none d-md-block"
                 priority={true}
               />
               {/* Mobile Image */}
